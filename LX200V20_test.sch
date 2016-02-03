@@ -1087,6 +1087,21 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="3" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
 </package>
+<package name="OKI-78SR">
+<pad name="INPUT" x="0" y="0" drill="1.1"/>
+<pad name="GND" x="2.54" y="0" drill="1.1" shape="square"/>
+<pad name="OUTPUT" x="5.08" y="0" drill="1.1"/>
+<wire x1="-2.54" y1="5.08" x2="7.62" y2="5.08" width="0.127" layer="21"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="1.905" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="7.62" y2="1.905" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PLC10005345">
@@ -2198,6 +2213,20 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pin name="1" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="2" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
 </symbol>
+<symbol name="78XX">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.635" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PLC10005345">
@@ -2327,6 +2356,23 @@ LETTER landscape</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG-OKI-78SR">
+<gates>
+<gate name="G$1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OKI-78SR">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN" pad="INPUT"/>
+<connect gate="G$1" pin="OUT" pad="OUTPUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9695,6 +9741,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF5" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="U$9" library="BlueRobotics-Main" deviceset="VREG-OKI-78SR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9743,6 +9791,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="STANDOFF1" gate="G$1" x="231.14" y="190.5"/>
 <instance part="STANDOFF2" gate="G$1" x="238.76" y="190.5"/>
 <instance part="STANDOFF3" gate="G$1" x="238.76" y="198.12"/>
+<instance part="STANDOFF5" gate="G$1" x="231.14" y="198.12"/>
+<instance part="U$9" gate="G$1" x="193.04" y="233.68"/>
 </instances>
 <busses>
 </busses>
@@ -10121,18 +10171,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="208.28" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED2" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GPIO2"/>
-<wire x1="27.94" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="LED-ACT" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
 <label x="185.42" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO2"/>
+<wire x1="27.94" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
