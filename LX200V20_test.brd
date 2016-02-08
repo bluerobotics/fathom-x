@@ -1750,15 +1750,14 @@ design rules under a new name.</description>
 <element name="C1" library="resistor" package="C0402" value="0.1uF" x="17.145" y="41.275" rot="R180"/>
 <element name="C2" library="resistor" package="C0402" value="0.1uF" x="17.145" y="26.035"/>
 <element name="C3" library="resistor" package="C1206" value="EFI Capacitor (1000 pF, 2kV)" x="29.845" y="33.655"/>
-<element name="C4" library="resistor" package="C0805" value="330pF 50V" x="20.32" y="7.62" rot="R180"/>
-<element name="C5" library="resistor" package="C0805" value="0.01uF 250V" x="17.145" y="22.225" rot="R180"/>
-<element name="C6" library="resistor" package="C0805" value="0.01uF 250V" x="17.145" y="19.685" rot="R180"/>
+<element name="C4" library="resistor" package="C0805" value="330pF 50V" x="20.32" y="14.605" rot="R180"/>
+<element name="C6" library="resistor" package="C1206" value="0.01uF 500V" x="17.145" y="19.685" rot="R180"/>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="3.175" y="10.16" rot="R270"/>
 <element name="LED2" library="led" package="CHIPLED_0603" value="" x="3.175" y="17.78" rot="R270"/>
 <element name="LED3" library="led" package="CHIPLED_0603" value="" x="3.175" y="32.385" rot="R270"/>
 <element name="LED4" library="led" package="CHIPLED_0603" value="" x="3.175" y="25.4" rot="R270"/>
 <element name="R1" library="resistor" package="R0603" value="75" x="26.67" y="30.48" rot="R180"/>
-<element name="R10" library="resistor" package="R1206" value="4.7K 1/4W" x="22.225" y="19.685"/>
+<element name="R10" library="resistor" package="R1206" value="10 1/4W" x="22.225" y="19.685"/>
 <element name="R2" library="resistor" package="R0603" value="75" x="26.67" y="36.83" rot="R180"/>
 <element name="R3" library="resistor" package="R0603" value="75" x="30.48" y="36.83"/>
 <element name="R4" library="resistor" package="R0603" value="75" x="30.48" y="30.48"/>
@@ -1766,10 +1765,9 @@ design rules under a new name.</description>
 <element name="R6" library="resistor" package="R0603" value="130" x="3.175" y="20.955" rot="R180"/>
 <element name="R7" library="resistor" package="R0603" value="470" x="3.175" y="35.56" rot="R180"/>
 <element name="R8" library="resistor" package="R0603" value="130" x="3.175" y="28.575" rot="R180"/>
-<element name="R9" library="resistor" package="R1206" value="4.7K 1/4W" x="22.225" y="22.225"/>
 <element name="U$1" library="BR-Eagle-Library" package="LX200V20" value="LX200V20" x="8.89" y="3.81" rot="R90"/>
 <element name="U$2" library="SparkFun-Connectors" package="RJ45-8" value="RJ45-8PTH" x="38.1" y="18.415"/>
-<element name="U$3" library="BlueRobotics-Main" package="PLC10005345" value="PLC10005345" x="16.51" y="13.335"/>
+<element name="U$3" library="BlueRobotics-Main" package="PLC10005345" value="PLC10005345" x="13.97" y="8.89"/>
 <element name="U$4" library="BlueRobotics-Main" package="PT61017PL" value="PT61017PEL" x="14.605" y="38.1" rot="R270"/>
 <element name="U$5" library="BlueRobotics-Main" package="SOD323-BIDIRECTIONAL" value="TVS-SP4021" x="26.035" y="20.955" rot="R90"/>
 <element name="U$6" library="BlueRobotics-Main" package="TETHER-HEADER-2X7" value="TETHER-HEADERSERIAL" x="36.195" y="36.195"/>
@@ -1845,7 +1843,10 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="17"/>
 <contactref element="LED3" pad="C"/>
 <contactref element="LED4" pad="C"/>
-<wire x1="17.795" y1="26.035" x2="31.245" y2="33.655" width="0" layer="19" extent="1-1"/>
+<contactref element="U$5" pad="2"/>
+<contactref element="U$3" pad="6"/>
+<wire x1="26.035" y1="22.055" x2="31.245" y2="33.655" width="0" layer="19" extent="1-1"/>
+<wire x1="17.795" y1="26.035" x2="26.035" y2="22.055" width="0" layer="19" extent="1-1"/>
 <wire x1="7.49" y1="23.81" x2="17.795" y2="26.035" width="0" layer="19" extent="1-1"/>
 <wire x1="3.925" y1="25.4" x2="7.49" y2="23.81" width="0" layer="19" extent="1-1"/>
 <wire x1="3.925" y1="32.385" x2="3.925" y2="25.4" width="0" layer="19" extent="1-1"/>
@@ -1854,6 +1855,7 @@ design rules under a new name.</description>
 <wire x1="10.29" y1="9.81" x2="7.49" y2="15.81" width="0" layer="19" extent="1-1"/>
 <wire x1="7.49" y1="3.81" x2="10.29" y2="9.81" width="0" layer="19" extent="1-1"/>
 <wire x1="16.495" y1="41.275" x2="7.49" y2="35.81" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="6.35" x2="10.29" y2="9.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$4" pad="10"/>
@@ -1906,35 +1908,28 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="2"/>
 <contactref element="U$3" pad="2"/>
 <contactref element="C4" pad="1"/>
-<wire x1="21.27" y1="7.62" x2="19.05" y2="10.795" width="0" layer="19" extent="1-1"/>
-<wire x1="10.29" y1="5.81" x2="19.05" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="6.35" x2="21.27" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="10.29" y1="5.81" x2="16.51" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX-">
 <contactref element="U$1" pad="3"/>
 <contactref element="U$3" pad="1"/>
 <contactref element="C4" pad="2"/>
-<wire x1="19.37" y1="7.62" x2="19.05" y2="15.875" width="0" layer="19" extent="1-1"/>
-<wire x1="7.49" y1="7.81" x2="19.37" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="11.43" x2="19.37" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="7.49" y1="7.81" x2="16.51" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX+">
 <contactref element="U$1" pad="5"/>
 <contactref element="U$3" pad="3"/>
-<wire x1="7.49" y1="11.81" x2="16.51" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="7.49" y1="11.81" x2="13.97" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX-">
 <contactref element="U$1" pad="6"/>
 <contactref element="U$3" pad="4"/>
-<wire x1="10.29" y1="13.81" x2="16.51" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="6.35" x2="10.29" y2="13.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ZC_IN_EX">
 <contactref element="U$1" pad="8"/>
-</signal>
-<signal name="AC_CPLD_N">
-<contactref element="U$3" pad="6"/>
-<contactref element="R9" pad="2"/>
-<contactref element="U$5" pad="2"/>
-<wire x1="23.647" y1="22.225" x2="26.035" y2="22.055" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="10.795" x2="26.035" y2="22.055" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R5" pad="2"/>
@@ -1974,29 +1969,22 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="R10" pad="1"/>
 <contactref element="C6" pad="1"/>
-<wire x1="18.095" y1="19.685" x2="20.803" y2="19.685" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="R9" pad="1"/>
-<contactref element="C5" pad="1"/>
-<wire x1="18.095" y1="22.225" x2="20.803" y2="22.225" width="0" layer="19" extent="1-1"/>
+<wire x1="18.545" y1="19.685" x2="20.803" y2="19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EXT_AC_A">
-<contactref element="C5" pad="2"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="16.195" y1="22.225" x2="36.845" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EXT_AC_B">
 <contactref element="C6" pad="2"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="16.195" y1="19.685" x2="40.345" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="15.745" y1="19.685" x2="40.345" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AC_CPLD_L">
 <contactref element="U$3" pad="5"/>
 <contactref element="R10" pad="2"/>
 <contactref element="U$5" pad="1"/>
 <wire x1="23.647" y1="19.685" x2="26.035" y2="19.855" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="15.875" x2="26.035" y2="19.855" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="11.43" x2="23.647" y2="19.685" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
