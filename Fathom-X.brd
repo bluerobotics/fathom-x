@@ -152,12 +152,10 @@
 <wire x1="0" y1="45.72" x2="0" y2="0" width="0" layer="20"/>
 <text x="1.5875" y="23.8125" size="1.27" layer="21" ratio="12">PWR</text>
 <text x="1.27" y="14.9225" size="1.27" layer="21" ratio="12">LINK</text>
-<text x="30.48" y="2.2225" size="1.27" layer="21" ratio="12" rot="R90">SIGNAL-</text>
-<text x="43.18" y="2.2225" size="1.27" layer="21" ratio="12" rot="R90">SIGNAL+</text>
 <text x="36.195" y="33.02" size="1.27" layer="21" ratio="12" align="center">FATHOM-X
 Tether
 Interface
-rev1</text>
+rev2</text>
 <text x="23.1775" y="32.385" size="1.016" layer="21" ratio="12" rot="R180" align="center">USB
 (Power
 Only)</text>
@@ -179,6 +177,19 @@ Only)</text>
 <text x="57.4675" y="11.1125" size="1.016" layer="21" rot="R270">+7-28V</text>
 <text x="16.1925" y="0.9525" size="1.016" layer="22" rot="MR0">R.J. 2016/02</text>
 <text x="52.3875" y="40.005" size="1.016" layer="21" ratio="12">10/100</text>
+<wire x1="31.645" y1="4.01625" x2="41.17" y2="4.01625" width="0.127" layer="21"/>
+<wire x1="41.17" y1="4.01625" x2="41.17" y2="2.27" width="0.127" layer="21"/>
+<wire x1="41.17" y1="2.27" x2="41.17" y2="0.52375" width="0.127" layer="21"/>
+<wire x1="41.17" y1="0.52375" x2="36.4075" y2="0.52375" width="0.127" layer="21"/>
+<wire x1="36.4075" y1="0.52375" x2="31.645" y2="0.52375" width="0.127" layer="21"/>
+<wire x1="31.645" y1="0.52375" x2="31.645" y2="2.27" width="0.127" layer="21"/>
+<text x="36.56625" y="3.2225" size="1.016" layer="21" font="fixed" ratio="12" align="center">SIGNAL</text>
+<wire x1="31.645" y1="2.27" x2="31.645" y2="4.01625" width="0.127" layer="21"/>
+<wire x1="31.645" y1="2.27" x2="36.4075" y2="2.27" width="0.127" layer="21"/>
+<wire x1="36.4075" y1="2.27" x2="41.17" y2="2.27" width="0.127" layer="21"/>
+<wire x1="36.4075" y1="2.27" x2="36.4075" y2="0.52375" width="0.127" layer="21"/>
+<text x="39.10625" y="1.47625" size="1.778" layer="21" font="fixed" ratio="12" align="center">+</text>
+<text x="34.34375" y="1.47625" size="1.778" layer="21" font="fixed" ratio="12" align="center">-</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1471,23 +1482,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <pad name="L2" x="3.9" y="-4.9" drill="0.9"/>
 <pad name="L1" x="6.3" y="-3.4" drill="0.9"/>
 </package>
-<package name="NQ0121X000J0G">
-<smd name="P$1" x="0" y="0" dx="1.6" dy="2.4" layer="1"/>
-<smd name="P$2" x="0" y="9" dx="1.6" dy="2.4" layer="1"/>
-<wire x1="-2" y1="-1" x2="-2" y2="8" width="0.127" layer="21"/>
-<wire x1="-2" y1="8" x2="-0.5" y2="8" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="8" x2="0.5" y2="8" width="0.127" layer="21"/>
-<wire x1="0.5" y1="8" x2="2" y2="8" width="0.127" layer="21"/>
-<wire x1="2" y1="8" x2="2" y2="-1" width="0.127" layer="21"/>
-<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="8" x2="-0.5" y2="9.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="9.5" x2="0.5" y2="9.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="9.5" x2="0.5" y2="8" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="6.5" x2="0.5" y2="6.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="6.5" x2="0.5" y2="5.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="5.5" x2="-0.5" y2="5.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="5.5" x2="-0.5" y2="6.5" width="0.127" layer="21"/>
-</package>
 <package name="BR-LOGO-MEDIUM-SMALL-COPPER">
 <rectangle x1="1.7018" y1="-0.0254" x2="2.5146" y2="0.0254" layer="29"/>
 <rectangle x1="1.5494" y1="0.0254" x2="2.4638" y2="0.0762" layer="29"/>
@@ -2431,6 +2425,19 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
+<package name="TETHER-POWER-TERMINALS">
+<pad name="1A" x="0" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="2A" x="5" y="0" drill="1.3" diameter="2.1844"/>
+<wire x1="-2.5" y1="4" x2="7.5" y2="4" width="0.127" layer="21"/>
+<wire x1="7.5" y1="4" x2="7.5" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-3.75" x2="7.5" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4.25" x2="-2.5" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-4.25" x2="-2.5" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.75" x2="-2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.75" x2="7.5" y2="-3.75" width="0.127" layer="21"/>
+<pad name="1B" x="-0.75" y="2.25" drill="2.2" diameter="3.81"/>
+<pad name="2B" x="5.75" y="2.25" drill="2.2" diameter="3.81"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Electromechanical">
@@ -2812,8 +2819,6 @@ design rules under a new name.</description>
 <element name="C7" library="resistor" package="C0603" value="0.1uF" x="31.115" y="29.21"/>
 <element name="R9" library="resistor" package="R0603" value="470" x="14.605" y="26.035" rot="R180"/>
 <element name="R11" library="resistor" package="R0603" value="470" x="14.605" y="22.86" rot="R180"/>
-<element name="U$2" library="BlueRobotics-Main" package="NQ0121X000J0G" value="HEADER-1NQ" x="39.37" y="2.2225"/>
-<element name="U$4" library="BlueRobotics-Main" package="NQ0121X000J0G" value="HEADER-1NQ" x="33.02" y="2.2225"/>
 <element name="JP2" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="M023.5MM" x="51.435" y="7.62"/>
 <element name="JP1" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="37.1475" y="14.605" rot="R180"/>
 <element name="U$6" library="BlueRobotics-Main" package="BR-LOGO-MEDIUM-SMALL-COPPER" value="LOGOBR-LOGO-MS-COPPER" x="1.27" y="7.62"/>
@@ -2828,6 +2833,7 @@ design rules under a new name.</description>
 <element name="C16" library="SparkFun-Passives" package="EIA3216" value="10uF 10V" x="15.24" y="41.5925" rot="R270"/>
 <element name="C1" library="SparkFun-Passives" package="EIA3216" value="10uF 10V" x="45.085" y="43.18" rot="R180"/>
 <element name="IC1" library="BlueRobotics-Main" package="SOT223" value="1117-3.3V" x="37.1475" y="40.9575" rot="R90"/>
+<element name="U$8" library="BlueRobotics-Main" package="TETHER-POWER-TERMINALS" value="HEADER-2POWER" x="33.9725" y="8.255"/>
 </elements>
 <signals>
 <signal name="PE-TD+">
@@ -3165,12 +3171,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="HV_SIGNAL">
 <contactref element="C6" pad="2"/>
-<contactref element="U$2" pad="P$1"/>
-<contactref element="U$2" pad="P$2"/>
-<wire x1="39.37" y1="2.2225" x2="39.37" y2="7.62" width="1.016" layer="1"/>
-<wire x1="39.37" y1="7.62" x2="39.37" y2="11.2225" width="1.016" layer="1"/>
-<wire x1="45.085" y1="7.49" x2="39.5" y2="7.49" width="1.016" layer="1"/>
-<wire x1="39.5" y1="7.49" x2="39.37" y2="7.62" width="1.016" layer="1"/>
+<contactref element="U$8" pad="2B"/>
+<contactref element="U$8" pad="2A"/>
+<wire x1="45.085" y1="7.49" x2="42.42" y2="7.49" width="1.016" layer="1"/>
+<wire x1="42.42" y1="7.49" x2="40.195" y2="9.715" width="1.016" layer="1"/>
+<wire x1="40.195" y1="9.715" x2="39.7225" y2="10.505" width="1.016" layer="1"/>
+<wire x1="38.9725" y1="8.255" x2="38.655" y2="8.175" width="1.016" layer="1"/>
+<wire x1="38.655" y1="8.175" x2="40.195" y2="9.715" width="1.016" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="U$10" pad="L1"/>
@@ -3208,11 +3215,7 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="2"/>
 <contactref element="U$5" pad="2"/>
 <contactref element="U$3" pad="PL_L"/>
-<contactref element="U$4" pad="P$1"/>
-<contactref element="U$4" pad="P$2"/>
 <wire x1="40.115" y1="23.495" x2="40.3225" y2="23.495" width="1.016" layer="1"/>
-<wire x1="33.02" y1="2.2225" x2="33.02" y2="11.2225" width="1.016" layer="1"/>
-<wire x1="33.02" y1="11.2225" x2="33.02" y2="13.0175" width="1.016" layer="1"/>
 <wire x1="33.02" y1="13.0175" x2="34.6075" y2="14.605" width="1.016" layer="1"/>
 <wire x1="34.6075" y1="14.605" x2="34.6075" y2="16.1925" width="1.016" layer="1"/>
 <wire x1="34.6075" y1="16.1925" x2="35.56" y2="17.145" width="1.016" layer="1"/>
@@ -3224,6 +3227,12 @@ design rules under a new name.</description>
 <wire x1="43.4975" y1="22.5425" x2="42.8625" y2="22.5425" width="0.6096" layer="1"/>
 <wire x1="42.8625" y1="22.5425" x2="41.91" y2="23.495" width="0.6096" layer="1"/>
 <wire x1="41.91" y1="23.495" x2="40.115" y2="23.495" width="0.6096" layer="1"/>
+<contactref element="U$8" pad="1A"/>
+<contactref element="U$8" pad="1B"/>
+<wire x1="33.02" y1="13.0175" x2="33.02" y2="9.985" width="1.016" layer="1"/>
+<wire x1="33.02" y1="9.985" x2="33.2225" y2="10.505" width="1.016" layer="1"/>
+<wire x1="33.9725" y1="8.255" x2="33.655" y2="9.12" width="1.016" layer="1"/>
+<wire x1="33.655" y1="9.12" x2="33.2225" y2="10.505" width="1.016" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>

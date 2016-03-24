@@ -311,26 +311,6 @@
 <pad name="L2" x="3.9" y="-4.9" drill="0.9"/>
 <pad name="L1" x="6.3" y="-3.4" drill="0.9"/>
 </package>
-<package name="BULLET-3.5MM">
-<pad name="P$1" x="0" y="0" drill="4.5" diameter="7" shape="offset" rot="R90"/>
-</package>
-<package name="NQ0121X000J0G">
-<smd name="P$1" x="0" y="0" dx="1.6" dy="2.4" layer="1"/>
-<smd name="P$2" x="0" y="9" dx="1.6" dy="2.4" layer="1"/>
-<wire x1="-2" y1="-1" x2="-2" y2="8" width="0.127" layer="21"/>
-<wire x1="-2" y1="8" x2="-0.5" y2="8" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="8" x2="0.5" y2="8" width="0.127" layer="21"/>
-<wire x1="0.5" y1="8" x2="2" y2="8" width="0.127" layer="21"/>
-<wire x1="2" y1="8" x2="2" y2="-1" width="0.127" layer="21"/>
-<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="8" x2="-0.5" y2="9.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="9.5" x2="0.5" y2="9.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="9.5" x2="0.5" y2="8" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="6.5" x2="0.5" y2="6.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="6.5" x2="0.5" y2="5.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="5.5" x2="-0.5" y2="5.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="5.5" x2="-0.5" y2="6.5" width="0.127" layer="21"/>
-</package>
 <package name="BR-LOGO-MEDIUM">
 <rectangle x1="3.34518125" y1="-0.04241875" x2="4.61518125" y2="0.04241875" layer="21"/>
 <rectangle x1="3.00481875" y1="0.04241875" x2="4.52881875" y2="0.127" layer="21"/>
@@ -1819,6 +1799,38 @@
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
+<package name="OSTYK33102030">
+<pad name="2" x="0" y="0" drill="1.4" diameter="2.54"/>
+<pad name="1" x="8.25" y="0" drill="1.4" diameter="2.54"/>
+<wire x1="-5.1" y1="-4.4" x2="13.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-4.4" x2="-5.1" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-1.7" x2="-5.1" y2="10.6" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="10.6" x2="13.4" y2="10.6" width="0.127" layer="21"/>
+<wire x1="13.4" y1="10.6" x2="13.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="13.4" y1="-1.7" x2="13.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-1.7" x2="13.4" y2="-1.7" width="0.127" layer="21"/>
+</package>
+<package name="TETHER-POWER-TERMINALS">
+<pad name="1A" x="0" y="0" drill="1.3" diameter="2.1844"/>
+<pad name="2A" x="5" y="0" drill="1.3" diameter="2.1844"/>
+<wire x1="-2.5" y1="4" x2="7.5" y2="4" width="0.127" layer="21"/>
+<wire x1="7.5" y1="4" x2="7.5" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-3.75" x2="7.5" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4.25" x2="-2.5" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-4.25" x2="-2.5" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.75" x2="-2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.75" x2="7.5" y2="-3.75" width="0.127" layer="21"/>
+<pad name="1B" x="-0.75" y="2.25" drill="2.2" diameter="3.81"/>
+<pad name="2B" x="5.75" y="2.25" drill="2.2" diameter="3.81"/>
+</package>
+<package name="HEADER-2MM-2POS">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="P$2" x="2" y="0" drill="0.8" diameter="1.4224"/>
+<wire x1="-1" y1="1" x2="3" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="3" y2="-1" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2952,13 +2964,6 @@
 <pin name="TD+" x="-17.78" y="10.16" length="middle"/>
 <pin name="SHIELD" x="-17.78" y="-12.7" length="middle"/>
 </symbol>
-<symbol name="HEADER-1">
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
-</symbol>
 <symbol name="LOGO">
 <rectangle x1="6.2357" y1="-0.0127" x2="6.8199" y2="0.0127" layer="94"/>
 <rectangle x1="5.8547" y1="0.0127" x2="7.0993" y2="0.0381" layer="94"/>
@@ -3962,6 +3967,14 @@
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
 </symbol>
+<symbol name="HEADER-2">
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="12.7" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-BLUEROBOTICS" prefix="FRAME" uservalue="yes">
@@ -4056,29 +4069,6 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HEADER-1">
-<gates>
-<gate name="G$1" symbol="HEADER-1" x="-5.08" y="-2.54"/>
-</gates>
-<devices>
-<device name="BULLET-3.5" package="BULLET-3.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NQ" package="NQ0121X000J0G">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1 P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LOGO">
 <gates>
 <gate name="G$1" symbol="LOGO" x="0" y="0"/>
@@ -4123,6 +4113,40 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-2">
+<gates>
+<gate name="G$1" symbol="HEADER-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BARRIER-BLOCK-1" package="OSTYK33102030">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="POWER" package="TETHER-POWER-TERMINALS">
+<connects>
+<connect gate="G$1" pin="1" pad="1A 1B"/>
+<connect gate="G$1" pin="2" pad="2A 2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2MM" package="HEADER-2MM-2POS">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13882,8 +13906,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="470"/>
 <part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="470"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="BlueRobotics-Main" deviceset="HEADER-1" device="NQ"/>
-<part name="U$4" library="BlueRobotics-Main" deviceset="HEADER-1" device="NQ"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="U$6" library="BlueRobotics-Main" deviceset="LOGO" device="BR-LOGO-MS-COPPER"/>
@@ -13898,6 +13920,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP_POL" device="1206" value="10uF 10V"/>
 <part name="IC1" library="BlueRobotics-Main" deviceset="VREG-1117-FIXED" device="SOT223" value="1117-3.3V"/>
+<part name="U$8" library="BlueRobotics-Main" deviceset="HEADER-2" device="POWER"/>
 </parts>
 <sheets>
 <sheet>
@@ -14222,8 +14245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$9" gate="G$1" x="111.76" y="96.52"/>
 <instance part="GND7" gate="1" x="111.76" y="81.28"/>
 <instance part="GND8" gate="1" x="134.62" y="81.28"/>
-<instance part="U$2" gate="G$1" x="60.96" y="137.16" rot="R180"/>
-<instance part="U$4" gate="G$1" x="60.96" y="129.54" rot="R180"/>
 <instance part="JP2" gate="G$1" x="55.88" y="99.06" rot="R180"/>
 <instance part="JP1" gate="G$1" x="55.88" y="81.28" rot="R180"/>
 <instance part="C15" gate="G$1" x="154.94" y="88.9"/>
@@ -14237,6 +14258,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND1" gate="1" x="160.02" y="106.68"/>
 <instance part="D1" gate="G$1" x="147.32" y="114.3" rot="R180"/>
 <instance part="U$7" gate="G$1" x="124.46" y="10.16"/>
+<instance part="U$8" gate="G$1" x="60.96" y="137.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14295,7 +14317,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="48.26" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <label x="30.48" y="134.62" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="U$8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PL_N" class="0">
@@ -14312,9 +14334,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="30.48" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
-<label x="30.48" y="127" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
+<label x="30.48" y="132.08" size="1.778" layer="95"/>
+<pinref part="U$8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="5V" class="0">
