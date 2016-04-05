@@ -159,8 +159,7 @@ rev2</text>
 <text x="23.1775" y="32.385" size="1.016" layer="21" ratio="12" rot="R180" align="center">USB
 (Power
 Only)</text>
-<text x="39.6875" y="2.54" size="1.016" layer="21" ratio="12" rot="R180" align="center">Tether Input
-(0-400VDC)</text>
+<text x="39.6875" y="2.54" size="1.016" layer="21" ratio="12" rot="R180" align="center">Tether Input</text>
 <wire x1="50.3775" y1="4.01625" x2="56.7275" y2="4.01625" width="0.127" layer="21"/>
 <wire x1="56.7275" y1="4.01625" x2="56.7275" y2="2.27" width="0.127" layer="21"/>
 <wire x1="56.7275" y1="2.27" x2="56.7275" y2="0.52375" width="0.127" layer="21"/>
@@ -179,8 +178,6 @@ Only)</text>
 <text x="52.3875" y="40.005" size="1.016" layer="21" ratio="12">10/100</text>
 <text x="31.115" y="0.635" size="3.81" layer="21">-</text>
 <text x="45.4025" y="0.635" size="3.81" layer="21">+</text>
-<text x="39.0525" y="5.3975" size="1.016" layer="22" rot="MR0" align="center">DANGER: POTENTIALLY
-HIGH VOLTAGE</text>
 </plain>
 <libraries>
 <library name="resistor">
