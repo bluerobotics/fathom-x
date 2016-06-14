@@ -16,10 +16,20 @@ The Fathom-X board has a few advantages over the Fathom-E interface. It uses a H
 
 Please see the [official documentation](http://docs.bluerobotics.com/fathom-x/) for more information.
 
-##License
+## License
 
 The Fathom Ethernet Hardware Design is released under the MIT License.
 
-##Revision History
+## Revision History
 
-0.0 - Under development
+### Fathom-E 
+
+rev1 - Works but RJ45 misaligned
+
+rev2 - Production version
+
+### Fathom-X
+
+rev1 - Works but poor tether connector used
+
+rev2 - Production version with updated connector
