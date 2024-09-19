@@ -33,3 +33,5 @@ rev2 - Production version
 rev1 - Works but poor tether connector used
 
 rev2 - Production version with updated connector
+
+RevB - In progress
