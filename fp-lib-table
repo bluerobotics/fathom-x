@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Fathom-X")(type "KiCad")(uri "$(KIPRJMOD)/Fathom-X.pretty")(options "")(descr ""))
+)
