@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Fathom-X-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Fathom-X-eagle-import.kicad_sym")(options "")(descr ""))
+)

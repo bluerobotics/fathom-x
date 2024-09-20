@@ -1,0 +1,4 @@
+(version 1)
+(rule "class 1:1"
+  (condition "A.NetClass == 'high-voltage' && B.NetClass == 'high-voltage'")
+  (constraint clearance (min 0.762mm)))
