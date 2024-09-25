@@ -598,7 +598,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "C:\\Users\\JacobBrotmanKrass\\Documents\\GitHub\\br-kicad-lib\\Templates\\BR_sheet_template.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -615,5 +615,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PCBA_BR_REVISION": "B"
+  }
 }

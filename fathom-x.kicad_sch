@@ -3,8 +3,1253 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "c22ba073-8f48-4e42-84f1-aa310c7d5550")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
+		(symbol "BR_Modules:LX200V20-SOCKET"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 20.574 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LX200V20-SOCKET"
+				(at -5.334 -32.766 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Fathom-X:LX200V20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10489.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20 Position Header Connector 0.079\" (2.00mm) Surface Mount Gold"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Sullins Connector Solutions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufactuer Part Num" "NPPN201BFLC-RC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "S5901-20-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C3320909"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LX200V20-SOCKET_1_0"
+				(pin power_in line
+					(at -7.62 22.86 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "VDD2P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -12.7 0)
+					(length 2.54)
+					(name "PERX_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -15.24 0)
+					(length 2.54)
+					(name "PERX_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -17.78 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "PETX_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -22.86 0)
+					(length 2.54)
+					(name "PETX_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "TX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -25.4 0)
+					(length 2.54)
+					(name "3.3VD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 17.78 0)
+					(length 2.54)
+					(name "TX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 12.7 0)
+					(length 2.54)
+					(name "RX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "RX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "ZC_IN_EX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LX200V20-SOCKET_1_1"
+				(rectangle
+					(start -5.08 25.4)
+					(end 7.62 -27.94)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "BR_Optoelectronic:LTST-C191KGKT"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BR_Optoelectronics:LED_0603_1608Metric"
+				(at 0.381 5.969 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+				(at 2.667 9.017 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED 0603 Green"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Lite-On Inc."
+				(at 1.651 12.573 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "LTST-C191KGKT"
+				(at -0.381 3.683 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 1.651 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "160-1446-1-ND"
+				(at 1.905 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "DigiKey"
+				(at 0.508 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "160-1446-2-ND"
+				(at 0.254 12.319 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C125098"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C191KGKT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LTST-C191KGKT_1_1"
+				(polyline
+					(pts
+						(xy -0.381 -1.27) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.27) (xy -0.254 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 -1.651) (xy -1.397 -2.286) (xy -0.762 -2.032) (xy -1.143 -1.651)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.651) (xy -0.635 -2.286) (xy 0 -2.032) (xy -0.381 -1.651)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 1.27) (xy -1.397 -1.27) (xy -1.143 -1.27) (xy -1.143 1.27) (xy -1.397 1.27)
+					)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BR_Resistors_0402:R_0402_130R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "130R"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "130 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 2.54 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "RC0402FR-07130RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 2.54 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "311-130LRCT-ND"
+				(at 2.54 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "Mouser"
+				(at 2.54 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "603-RC0402FR-07130RL"
+				(at 2.54 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 2.54 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C477610"
+				(at 2.54 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0402_130R_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_130R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BR_Resistors_0402:R_0402_470R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "470R"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BR_Passives:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "470R 1% 0402 Resistor "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 2.54 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "RC0402FR-07470RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "DigiKey"
+				(at 2.54 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" "311-470LRCT-ND"
+				(at 2.54 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "DigiKey"
+				(at 2.54 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" "311-470LRTR-ND"
+				(at 2.54 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" "JLCPCB"
+				(at 2.54 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" "C114877"
+				(at 2.54 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0402_470R_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_470R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Fathom-X-eagle-import:C-EUC0603"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1184,703 +2429,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Fathom-X-eagle-import:LEDCHIPLED_0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 3.556 -4.572 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.715 -4.572 90)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Fathom-X:CHIPLED_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LED\n\nOSRAM:\n- CHIPLED\nLG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974\nLS Q976, LO Q976, LY Q976\nLO Q996\n- Hyper CHIPLED\nLW Q18S\nLB Q993, LB Q99A, LB R99A\n- SideLED\nLS A670, LO A670, LY A670, LG A670, LP A670\nLB A673, LV A673, LT A673, LW A673\nLH A674\nLY A675\nLS A676, LA A676, LO A676, LY A676, LW A676\nLS A679, LY A679, LG A679\n-  Hyper Micro SIDELED®\nLS Y876, LA Y876, LO Y876, LY Y876\nLT Y87S\n- SmartLED\nLW L88C, LW L88S\nLB L89C, LB L89S, LG L890\nLS L89K, LO L89K, LY L89K\nLS L896, LA L896, LO L896, LY L896\n- TOPLED\nLS T670, LO T670, LY T670, LG T670, LP T670\nLSG T670, LSP T670, LSY T670, LOP T670, LYG T670\nLG T671, LOG T671, LSG T671\nLB T673, LV T673, LT T673, LW T673\nLH T674\nLS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676\nLB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C\nLS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C\nLW T67C\nLS T679, LY T679, LG T679\nLS T770, LO T770, LY T770, LG T770, LP T770\nLB T773, LV T773, LT T773, LW T773\nLH T774\nLS E675, LA E675, LY E675, LS T675\nLS T776, LA T776, LO T776, LY T776, LB T776\nLHGB T686\nLT T68C, LB T68C\n- Hyper Mini TOPLED®\nLB M676\n- Mini TOPLED Santana®\nLG M470\nLS M47K, LO M47K, LY M47K\n\nSource: http://www.osram.convergy.de\n\nLUXEON:\n- LUMILED®\nLXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00\nLXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00\nLXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00\nLXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00\nLXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00\nLXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00\nLXK2-PH12-R00, LXK2-PH12-S00\nLXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00\n\nSource: www.luxeon.com\n\nKINGBRIGHT:\n\nKA-3528ASYC\nSource: www.kingbright.com"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LEDCHIPLED_0603_1_0"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy -3.429 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -3.302 -3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.429 -2.159) (xy -3.048 -1.27) (xy -2.54 -1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -3.302) (xy -2.921 -2.413) (xy -2.413 -2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Fathom-X-eagle-import:LX200V20"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at -12.7 20.574 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -12.7 -20.066 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Fathom-X:LX200V20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LX200V20_1_0"
-				(polyline
-					(pts
-						(xy -12.7 -17.78) (xy -12.7 20.32)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 20.32) (xy 12.7 20.32)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -17.78) (xy -12.7 -17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 20.32) (xy 12.7 -17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "VDD2P0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 17.78 0)
-					(length 5.08)
-					(name "PERX_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 15.24 0)
-					(length 5.08)
-					(name "PERX_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "PETX_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "PETX_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 17.78 180)
-					(length 5.08)
-					(name "TX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -15.24 0)
-					(length 5.08)
-					(name "3.3VD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 15.24 180)
-					(length 5.08)
-					(name "TX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "RX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "RX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "ZC_IN_EX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "GPIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3939,223 +4487,6 @@
 				)
 			)
 		)
-		(symbol "Fathom-X-eagle-import:UT11403S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 18.288 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Fathom-X:UT11403S"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "UT11403S_1_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 17.78 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 17.78) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 0) (xy 17.78 17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 17.78) (xy 0 17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 15.24 180)
-					(length 5.08)
-					(name "PL_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "PL_L"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 2.54 180)
-					(length 5.08)
-					(name "PL_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "PL_N"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 7.62 0)
-					(length 5.08)
-					(name "RX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RX+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "RX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RX-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 10.16 0)
-					(length 5.08)
-					(name "TX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TX+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 15.24 0)
-					(length 5.08)
-					(name "TX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TX-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Fathom-X-eagle-import:VREG-1117-FIXEDSOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4535,68 +4866,1194 @@
 				)
 			)
 		)
+		(symbol "UT11403S_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at -8.636 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "UT11403S"
+				(at -3.556 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Fathom-X:UT11403S"
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.umec.com.tw/file/Product/file/UT11403S-MKT.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PLC Transformer 1:4:3 "
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UMEC"
+				(at -9.144 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Num" "UT11403S"
+				(at -1.524 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" ""
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 1" ""
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" ""
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 2" ""
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 3" ""
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Num 3" ""
+				(at -8.89 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UT11403S_1_0_1"
+				(arc
+					(start -1.27 -6.35)
+					(mid -0.821 -6.164)
+					(end -0.635 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -5.08)
+					(mid -0.821 -4.894)
+					(end -0.635 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -0.821 -3.624)
+					(end -0.635 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -2.54)
+					(mid -0.821 -2.354)
+					(end -0.635 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.905)
+					(radius 0.2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -0.821 1.456)
+					(end -0.635 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -0.821 2.726)
+					(end -0.635 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 3.81)
+					(mid -0.821 3.996)
+					(end -0.635 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -0.821 5.266)
+					(end -0.635 5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.715)
+					(radius 0.2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.635 -5.715)
+					(mid -0.821 -5.266)
+					(end -1.27 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -4.445)
+					(mid -0.821 -3.996)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -3.175)
+					(mid -0.821 -2.726)
+					(end -1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -1.905)
+					(mid -0.821 -1.456)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 1.905)
+					(mid -0.821 2.354)
+					(end -1.27 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 3.175)
+					(mid -0.821 3.624)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 4.445)
+					(mid -0.821 4.894)
+					(end -1.27 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 5.715)
+					(mid -0.821 6.164)
+					(end -1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 6.35) (xy 0.635 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -5.715)
+					(mid 1.456 -6.164)
+					(end 1.905 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -4.445)
+					(mid 1.456 -4.894)
+					(end 1.905 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.175)
+					(mid 1.456 -3.624)
+					(end 1.905 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.905)
+					(mid 1.456 -2.354)
+					(end 1.905 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -0.63)
+					(mid 1.456 -1.079)
+					(end 1.905 -1.265)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0.64)
+					(mid 1.456 0.191)
+					(end 1.905 0.005)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.905)
+					(mid 1.456 1.456)
+					(end 1.905 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 3.175)
+					(mid 1.456 2.726)
+					(end 1.905 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 4.445)
+					(mid 1.456 3.996)
+					(end 1.905 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 5.715)
+					(mid 1.456 5.266)
+					(end 1.905 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -5.08)
+					(mid 1.456 -5.266)
+					(end 1.27 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -3.81)
+					(mid 1.456 -3.996)
+					(end 1.27 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -2.54)
+					(mid 1.456 -2.726)
+					(end 1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 -1.27)
+					(mid 1.456 -1.456)
+					(end 1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 0.005)
+					(mid 1.4542 -0.1807)
+					(end 1.27 -0.63)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 1.275)
+					(mid 1.4542 1.0893)
+					(end 1.27 0.64)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 2.54)
+					(mid 1.456 2.354)
+					(end 1.27 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 3.81)
+					(mid 1.456 3.624)
+					(end 1.27 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 5.08)
+					(mid 1.456 4.894)
+					(end 1.27 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 5.715)
+					(radius 0.2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.905 6.35)
+					(mid 1.456 6.164)
+					(end 1.27 5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UT11403S_1_1_0"
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy 8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 8.89) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -8.89) (xy 8.89 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 8.89) (xy -8.89 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -1.27 0)
+					(length 2.56)
+					(name "RX+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 6.35 0)
+					(length 2.56)
+					(name "TX+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.56)
+					(name "TX-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -6.35 0)
+					(length 2.56)
+					(name "RX-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 6.35 180)
+					(length 2.56)
+					(name "PL_L"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -11.43 90)
+					(length 2.56) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -11.43 90)
+					(length 2.56) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -6.35 180)
+					(length 2.56)
+					(name "PL_N"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "UT11403S_1_1_1"
+				(polyline
+					(pts
+						(xy -8.89 -6.35) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 6.35) (xy -1.27 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -6.35) (xy 1.905 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 6.35) (xy 1.905 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "PL"
+					(at 5.588 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "RX"
+					(at -4.318 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "TX"
+					(at -4.318 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:-8V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-8V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-8V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-8V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-8V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDREF"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 645.795 84.455)
+		(at 340.995 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "087c6470-cfe1-45a8-8662-02225c3c22fd")
 	)
 	(junction
-		(at 454.66 99.695)
+		(at 149.86 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "151e9f34-e415-4680-940a-0a48171abcc6")
 	)
 	(junction
-		(at 520.7 46.355)
+		(at 215.9 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15ad9b6c-e204-440d-87d9-3abd2c3ad799")
 	)
 	(junction
-		(at 625.475 84.455)
+		(at 320.675 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21f0f942-acad-49c1-927d-a189d4cb7e68")
 	)
 	(junction
-		(at 688.975 84.455)
+		(at 384.175 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3028e7ae-6c07-4fe3-9851-8b8dbfbfa47a")
 	)
 	(junction
-		(at 378.46 104.775)
+		(at 86.36 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30e3786e-d99d-45dc-8b76-859a1c1f0adb")
+		(uuid "b5e7b0c3-93a7-41ff-a936-c2d7bc34cc0a")
 	)
 	(junction
-		(at 391.16 99.695)
+		(at 73.66 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bce91342-2fa0-4f4b-b7a6-28878c890227")
+		(uuid "c00430f3-ebc5-49e4-a7fe-d7be999b24c6")
 	)
 	(junction
-		(at 454.66 125.095)
+		(at 149.86 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d244002a-a1c8-40d2-89a1-5f7f98fe8074")
 	)
-	(wire
-		(pts
-			(xy 360.68 51.435) (xy 342.9 51.435)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0463dfc6-c645-497c-ad2b-55c3ed07ff94")
+	(no_connect
+		(at 64.77 59.69)
+		(uuid "94516ce2-814d-4ec2-9c70-8f06c1a6c590")
 	)
 	(wire
 		(pts
-			(xy 447.04 38.735) (xy 447.04 41.275)
+			(xy 142.24 74.93) (xy 142.24 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -4606,27 +6063,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 104.775) (xy 370.84 104.775)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0d07c68c-264c-4bc5-a619-541f6e1d0388")
-	)
-	(wire
-		(pts
-			(xy 398.78 53.975) (xy 398.78 56.515)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0ea7cef9-3d98-4c05-9335-79f16f052259")
-	)
-	(wire
-		(pts
-			(xy 635.635 66.675) (xy 625.475 66.675)
+			(xy 330.835 102.87) (xy 320.675 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -4636,7 +6073,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 104.775) (xy 454.66 99.695)
+			(xy 149.86 140.97) (xy 149.86 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -4646,7 +6083,17 @@
 	)
 	(wire
 		(pts
-			(xy 462.28 46.355) (xy 462.28 51.435)
+			(xy 54.61 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14cc7b05-a965-4dc6-96a9-44c9cf0a1455")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -4656,17 +6103,17 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 31.115) (xy 414.02 31.115)
+			(xy 64.77 69.85) (xy 46.99 69.85)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "1be996cd-3644-4702-88bc-e6a952d8cf79")
+		(uuid "1ac7bc0b-ad36-4250-bd46-446adaad6e19")
 	)
 	(wire
 		(pts
-			(xy 381 89.535) (xy 378.46 89.535)
+			(xy 76.2 125.73) (xy 73.66 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -4676,7 +6123,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.995 84.455) (xy 579.755 84.455)
+			(xy 290.195 120.65) (xy 274.955 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4686,7 +6133,17 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 99.695) (xy 523.24 99.695)
+			(xy 54.61 87.63) (xy 64.77 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ec04b0-26a4-4d70-8bad-d1631f0e95ef")
+	)
+	(wire
+		(pts
+			(xy 149.86 135.89) (xy 218.44 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -4696,7 +6153,17 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 99.695) (xy 454.66 99.695)
+			(xy 54.61 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d2bfe8-cd79-4a95-b7b5-6b42cd3bd625")
+	)
+	(wire
+		(pts
+			(xy 114.3 135.89) (xy 149.86 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -4706,7 +6173,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 168.275) (xy 370.84 170.815)
+			(xy 66.04 204.47) (xy 66.04 207.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -4716,7 +6183,17 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 23.495) (xy 505.46 23.495)
+			(xy 64.77 62.23) (xy 46.99 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2fc248b2-d07c-4073-af91-df0009c0da56")
+	)
+	(wire
+		(pts
+			(xy 198.12 59.69) (xy 200.66 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -4726,7 +6203,17 @@
 	)
 	(wire
 		(pts
-			(xy 653.415 69.215) (xy 650.875 69.215)
+			(xy 30.48 204.47) (xy 41.91 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a44b3cd-5c0c-44e5-b9f3-3fd20660bc3c")
+	)
+	(wire
+		(pts
+			(xy 348.615 105.41) (xy 346.075 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -4736,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 688.975 84.455) (xy 701.675 84.455)
+			(xy 384.175 120.65) (xy 396.875 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4746,17 +6233,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 53.975) (xy 342.9 53.975)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3f996a32-2217-4713-892f-f465e8d28768")
-	)
-	(wire
-		(pts
-			(xy 602.615 92.075) (xy 602.615 97.155)
+			(xy 297.815 128.27) (xy 297.815 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -4766,7 +6243,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 38.735) (xy 505.46 38.735)
+			(xy 198.12 74.93) (xy 200.66 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4776,17 +6253,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 53.975) (xy 398.78 53.975)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "447a71af-5529-445a-9cc4-a9030f0e141a")
-	)
-	(wire
-		(pts
-			(xy 625.475 84.455) (xy 625.475 86.995)
+			(xy 320.675 120.65) (xy 320.675 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -4796,7 +6263,7 @@
 	)
 	(wire
 		(pts
-			(xy 673.735 84.455) (xy 688.975 84.455)
+			(xy 368.935 120.65) (xy 384.175 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4806,27 +6273,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 99.695) (xy 370.84 99.695)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4cd9dc3f-3e09-40da-9610-8d0aac957577")
-	)
-	(wire
-		(pts
-			(xy 396.24 20.955) (xy 414.02 20.955)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4fe9190d-c7c0-48f5-96c5-30a8c4b80ef0")
-	)
-	(wire
-		(pts
-			(xy 439.42 125.095) (xy 454.66 125.095)
+			(xy 134.62 161.29) (xy 149.86 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -4836,7 +6283,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.075 26.035) (xy 582.295 26.035)
+			(xy 274.32 62.23) (xy 295.275 62.23)
 		)
 		(stroke
 			(width 0.1524)
@@ -4846,7 +6293,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 33.655) (xy 447.04 33.655)
+			(xy 162.56 69.85) (xy 142.24 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -4856,27 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 38.735) (xy 342.9 38.735)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "54dd4f1c-9fd3-4e2d-a106-f4f1f0ec359b")
-	)
-	(wire
-		(pts
-			(xy 360.68 46.355) (xy 342.9 46.355)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "54e0b48a-59b1-4c24-9463-300212bb07e6")
-	)
-	(wire
-		(pts
-			(xy 419.1 112.395) (xy 439.42 112.395)
+			(xy 114.3 148.59) (xy 134.62 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -4886,17 +6313,17 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 23.495) (xy 414.02 23.495)
+			(xy 54.61 85.09) (xy 64.77 85.09)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "596da947-35fb-450a-b53e-edcdfcac4810")
+		(uuid "5c03a731-177b-49f9-b71b-835c274700a6")
 	)
 	(wire
 		(pts
-			(xy 502.92 31.115) (xy 520.7 31.115)
+			(xy 198.12 67.31) (xy 215.9 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -4906,7 +6333,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 107.315) (xy 375.92 107.315)
+			(xy 86.36 143.51) (xy 71.12 143.51)
 		)
 		(stroke
 			(width 0.1524)
@@ -4916,7 +6343,7 @@
 	)
 	(wire
 		(pts
-			(xy 666.115 92.075) (xy 666.115 97.155)
+			(xy 361.315 128.27) (xy 361.315 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -4926,7 +6353,7 @@
 	)
 	(wire
 		(pts
-			(xy 645.795 84.455) (xy 658.495 84.455)
+			(xy 340.995 120.65) (xy 353.695 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4936,7 +6363,7 @@
 	)
 	(wire
 		(pts
-			(xy 688.975 94.615) (xy 688.975 97.155)
+			(xy 384.175 130.81) (xy 384.175 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -4946,7 +6373,7 @@
 	)
 	(wire
 		(pts
-			(xy 625.475 94.615) (xy 625.475 97.155)
+			(xy 320.675 130.81) (xy 320.675 133.35)
 		)
 		(stroke
 			(width 0.1524)
@@ -4956,7 +6383,17 @@
 	)
 	(wire
 		(pts
-			(xy 610.235 84.455) (xy 625.475 84.455)
+			(xy 86.36 143.51) (xy 91.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e4391a-1210-4d76-b542-d5b2c1fbce9e")
+	)
+	(wire
+		(pts
+			(xy 305.435 120.65) (xy 320.675 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4966,7 +6403,7 @@
 	)
 	(wire
 		(pts
-			(xy 650.875 69.215) (xy 650.875 71.755)
+			(xy 346.075 105.41) (xy 346.075 107.95)
 		)
 		(stroke
 			(width 0.1524)
@@ -4976,17 +6413,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 142.875) (xy 332.74 142.875)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7854f3d2-b53e-431f-b23c-ba63d8e1ae57")
-	)
-	(wire
-		(pts
-			(xy 467.36 26.035) (xy 447.04 26.035)
+			(xy 162.56 62.23) (xy 142.24 62.23)
 		)
 		(stroke
 			(width 0.1524)
@@ -4996,7 +6423,7 @@
 	)
 	(wire
 		(pts
-			(xy 625.475 66.675) (xy 625.475 84.455)
+			(xy 320.675 102.87) (xy 320.675 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -5006,7 +6433,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 117.475) (xy 454.66 125.095)
+			(xy 149.86 153.67) (xy 149.86 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -5016,7 +6443,7 @@
 	)
 	(wire
 		(pts
-			(xy 688.975 84.455) (xy 688.975 86.995)
+			(xy 384.175 120.65) (xy 384.175 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -5026,7 +6453,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 125.095) (xy 497.84 125.095)
+			(xy 185.42 161.29) (xy 193.04 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -5036,7 +6463,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 142.875) (xy 365.76 142.875)
+			(xy 73.66 179.07) (xy 60.96 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -5046,17 +6473,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 23.495) (xy 342.9 23.495)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "88365925-4d23-4d5a-b1de-b12449cd3ebe")
-	)
-	(wire
-		(pts
-			(xy 355.6 168.275) (xy 358.14 168.275)
+			(xy 50.8 204.47) (xy 53.34 204.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -5066,7 +6483,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 112.395) (xy 375.92 112.395)
+			(xy 71.12 148.59) (xy 91.44 148.59)
 		)
 		(stroke
 			(width 0.1524)
@@ -5076,7 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 640.715 66.675) (xy 653.415 66.675)
+			(xy 335.915 102.87) (xy 348.615 102.87)
 		)
 		(stroke
 			(width 0.1524)
@@ -5086,7 +6503,17 @@
 	)
 	(wire
 		(pts
-			(xy 645.795 84.455) (xy 625.475 84.455)
+			(xy 64.77 72.39) (xy 46.99 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9766bce9-dc52-47fa-a026-8d069dccf706")
+	)
+	(wire
+		(pts
+			(xy 340.995 120.65) (xy 320.675 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -5096,7 +6523,17 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 46.355) (xy 520.7 48.895)
+			(xy 49.53 204.47) (xy 50.8 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997f1e8e-6f25-44b2-bb29-5a42993d1ee1")
+	)
+	(wire
+		(pts
+			(xy 215.9 82.55) (xy 215.9 85.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -5106,7 +6543,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 38.735) (xy 447.04 38.735)
+			(xy 162.56 74.93) (xy 142.24 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -5116,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 125.095) (xy 480.06 125.095)
+			(xy 149.86 161.29) (xy 175.26 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -5126,7 +6563,37 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 125.095) (xy 523.24 125.095)
+			(xy 86.36 140.97) (xy 91.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e1e26c-3b2b-43ed-b79c-71bef401a242")
+	)
+	(wire
+		(pts
+			(xy 64.77 64.77) (xy 46.99 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a70894dc-b1c8-46e7-b737-a11820e58184")
+	)
+	(wire
+		(pts
+			(xy 54.61 46.99) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e3a812-62ec-46ee-84a8-4c67a936e379")
+	)
+	(wire
+		(pts
+			(xy 200.66 161.29) (xy 218.44 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -5136,17 +6603,17 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 43.815) (xy 342.9 43.815)
+			(xy 86.36 135.89) (xy 91.44 135.89)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "b1fbe058-4c08-4281-b47a-a12474e532cf")
+		(uuid "ad3507f5-e404-416f-80a2-07d9b820d833")
 	)
 	(wire
 		(pts
-			(xy 391.16 89.535) (xy 391.16 99.695)
+			(xy 86.36 125.73) (xy 86.36 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -5156,7 +6623,17 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 112.395) (xy 439.42 125.095)
+			(xy 66.04 140.97) (xy 73.66 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b43c1ab0-39a6-409c-af2a-9246a2445f43")
+	)
+	(wire
+		(pts
+			(xy 134.62 148.59) (xy 134.62 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -5166,7 +6643,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.075 28.575) (xy 582.295 28.575)
+			(xy 295.275 64.77) (xy 274.32 64.77)
 		)
 		(stroke
 			(width 0.1524)
@@ -5176,17 +6653,27 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 28.575) (xy 342.9 28.575)
+			(xy 54.61 77.47) (xy 64.77 77.47)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "bc689dfc-0f63-4c00-839e-0eb190e0a4fc")
+		(uuid "b9186c50-c800-4502-9b14-11f18f8fc350")
 	)
 	(wire
 		(pts
-			(xy 365.76 168.275) (xy 370.84 168.275)
+			(xy 54.61 44.45) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc783110-0262-4df1-84c9-decee4054129")
+	)
+	(wire
+		(pts
+			(xy 60.96 204.47) (xy 66.04 204.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -5196,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 645.795 86.995) (xy 645.795 84.455)
+			(xy 340.995 123.19) (xy 340.995 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -5206,7 +6693,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 89.535) (xy 391.16 89.535)
+			(xy 83.82 125.73) (xy 86.36 125.73)
 		)
 		(stroke
 			(width 0.1524)
@@ -5216,7 +6703,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 31.115) (xy 447.04 31.115)
+			(xy 162.56 67.31) (xy 142.24 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -5226,7 +6713,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 46.355) (xy 520.7 46.355)
+			(xy 198.12 82.55) (xy 215.9 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5236,7 +6723,7 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 48.895) (xy 447.04 51.435)
+			(xy 142.24 85.09) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -5246,7 +6733,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.055 26.035) (xy 676.275 26.035)
+			(xy 389.255 62.23) (xy 371.475 62.23)
 		)
 		(stroke
 			(width 0.1524)
@@ -5256,17 +6743,17 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 168.275) (xy 332.74 168.275)
+			(xy 30.48 179.07) (xy 43.18 179.07)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "cd3a20ae-19dd-4d19-9dad-ace823923574")
+		(uuid "cb616ffb-638a-404b-9d18-e2c89ea55ed5")
 	)
 	(wire
 		(pts
-			(xy 645.795 97.155) (xy 645.795 94.615)
+			(xy 340.995 133.35) (xy 340.995 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -5276,17 +6763,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 31.115) (xy 342.9 31.115)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cefc8e35-6ac2-47a5-a773-ee2cf8237daa")
-	)
-	(wire
-		(pts
-			(xy 520.7 31.115) (xy 520.7 46.355)
+			(xy 215.9 67.31) (xy 215.9 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5296,17 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 20.955) (xy 342.9 20.955)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d583bd38-e6c7-4c2a-9290-3a46abe38a5d")
-	)
-	(wire
-		(pts
-			(xy 467.36 23.495) (xy 447.04 23.495)
+			(xy 162.56 59.69) (xy 142.24 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -5316,7 +6783,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 89.535) (xy 378.46 104.775)
+			(xy 73.66 125.73) (xy 73.66 140.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -5326,7 +6793,17 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 104.775) (xy 378.46 104.775)
+			(xy 54.61 52.07) (xy 64.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db309369-fcd2-4607-bd13-7fc237a61879")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 73.66 140.97)
 		)
 		(stroke
 			(width 0.1524)
@@ -5336,7 +6813,7 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 38.735) (xy 543.56 38.735)
+			(xy 210.82 74.93) (xy 238.76 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -5346,7 +6823,17 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 142.875) (xy 358.14 142.875)
+			(xy 66.04 135.89) (xy 86.36 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f212ba00-1d53-45dd-939c-7bb011a76570")
+	)
+	(wire
+		(pts
+			(xy 50.8 179.07) (xy 53.34 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -5356,17 +6843,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 28.575) (xy 414.02 28.575)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f941c426-c318-4334-8980-4b1093edeaad")
-	)
-	(wire
-		(pts
-			(xy 515.62 23.495) (xy 543.56 23.495)
+			(xy 210.82 59.69) (xy 238.76 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -5376,7 +6853,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 46.355) (xy 462.28 46.355)
+			(xy 162.56 82.55) (xy 157.48 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5386,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.055 28.575) (xy 676.275 28.575)
+			(xy 389.255 64.77) (xy 371.475 64.77)
 		)
 		(stroke
 			(width 0.1524)
@@ -5396,7 +6873,7 @@
 	)
 	(text "SP4021-01FTG-C"
 		(exclude_from_sim no)
-		(at 459.486 115.443 0)
+		(at 154.686 151.638 0)
 		(effects
 			(font
 				(size 1.016 0.8636)
@@ -5407,7 +6884,7 @@
 	)
 	(text "Connector: NPPN201BFLC-RC"
 		(exclude_from_sim no)
-		(at 347.98 64.135 0)
+		(at 46.482 102.616 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5418,7 +6895,7 @@
 	)
 	(text "Jack with Magnetics"
 		(exclude_from_sim no)
-		(at 447.04 13.335 0)
+		(at 142.24 49.53 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5429,7 +6906,7 @@
 	)
 	(text "HomePlug/IEEE1901 Module"
 		(exclude_from_sim no)
-		(at 342.9 13.335 0)
+		(at 44.958 35.306 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5440,7 +6917,7 @@
 	)
 	(text "Powerline Coupling"
 		(exclude_from_sim no)
-		(at 396.24 92.075 0)
+		(at 91.44 128.27 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5449,19 +6926,8 @@
 		)
 		(uuid "ec8356c0-0b2c-46d5-a31b-2ebdd7e50269")
 	)
-	(label "LED-SELFCHECK"
-		(at 342.9 43.815 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "06724552-b58c-4e31-9c66-e3c7d754bd22")
-	)
 	(label "VIN"
-		(at 676.275 28.575 0)
+		(at 371.475 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5472,7 +6938,7 @@
 		(uuid "0691dba3-36eb-4004-8a69-61611f89153b")
 	)
 	(label "PE-TD-"
-		(at 447.04 26.035 0)
+		(at 142.24 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5483,7 +6949,7 @@
 		(uuid "0eb0f646-a09b-41c0-b5b5-7a4b8a6904a9")
 	)
 	(label "PL_N"
-		(at 421.64 112.395 0)
+		(at 116.84 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5493,19 +6959,41 @@
 		)
 		(uuid "12f0ad5e-3c40-476a-95cf-3cda9112a317")
 	)
-	(label "LED-LINK"
-		(at 368.3 142.875 0)
+	(label "PE-TD+"
+		(at 54.61 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
+		)
+		(uuid "15378e1f-24f5-42c3-b4d7-3b05e57afd43")
+	)
+	(label "TX-"
+		(at 66.04 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f1e6fef-7b4b-4d1f-920a-e4b6694f3c6b")
+	)
+	(label "LED-LINK"
+		(at 73.66 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
 		)
 		(uuid "209eb952-4657-4487-9787-f06ef3a250a7")
 	)
-	(label "PE-RD+"
-		(at 342.9 20.955 0)
+	(label "TX+"
+		(at 54.61 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5513,10 +7001,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "33cb8237-b2ba-4430-a272-2776fd06512b")
+		(uuid "28520896-4a05-4c65-bb2d-c289af43715b")
 	)
 	(label "TX+"
-		(at 406.4 20.955 0)
+		(at 66.04 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32330a17-b9d9-4fec-a629-60b451e9519c")
+	)
+	(label "PE-TD-"
+		(at 54.61 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5524,10 +7023,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3992139d-acf9-438d-9407-0d2c347367b9")
+		(uuid "326bcf48-9da1-44c2-baa6-16e3e343ac13")
+	)
+	(label "RX-"
+		(at 54.61 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "38b5a5e4-4b77-47cc-9058-616a2443774b")
 	)
 	(label "LED-SELFCHECK"
-		(at 523.24 38.735 0)
+		(at 46.99 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5535,21 +7045,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3e5e7d8d-5b5a-4bbc-b217-1f1c0607a98c")
+		(uuid "39138a6e-9002-44ff-b3ab-1112eca85333")
 	)
-	(label "LED-LINK"
-		(at 342.9 46.355 0)
+	(label "nRST"
+		(at 46.99 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "571d59fc-52c0-4b87-95b9-292896c2d78a")
+		(uuid "3b031610-28c1-4b61-8e15-a812f2d72542")
 	)
 	(label "5V"
-		(at 633.095 84.455 0)
+		(at 328.295 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5559,8 +7069,19 @@
 		)
 		(uuid "5abd08c7-e65c-480a-b978-dc0ce025dcb2")
 	)
+	(label "PE-RD+"
+		(at 54.61 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e58849f-a2e1-4592-8ca8-a4ccced4dac4")
+	)
 	(label "PE-RD-"
-		(at 447.04 33.655 0)
+		(at 142.24 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5570,41 +7091,8 @@
 		)
 		(uuid "5e861f8c-a5a3-43d8-a12f-19b992e2709c")
 	)
-	(label "TX-"
-		(at 406.4 23.495 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c662b91-07e1-4ad1-b2d4-5d4aff7bf6e3")
-	)
-	(label "PE-RD-"
-		(at 342.9 23.495 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "74d4d3ef-2fe3-46a9-ab7d-c4792802896e")
-	)
-	(label "LED-ACT"
-		(at 342.9 38.735 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "77065c39-6d42-42fd-a4ab-a3ce343a4e1e")
-	)
 	(label "RX-"
-		(at 375.92 112.395 0)
+		(at 71.12 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5615,7 +7103,7 @@
 		(uuid "7815d138-cbbf-4032-a76c-ff858d8d6e63")
 	)
 	(label "VIN"
-		(at 579.755 84.455 0)
+		(at 274.955 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5625,8 +7113,8 @@
 		)
 		(uuid "7a4ec75c-23bd-4510-a3b6-384e86272391")
 	)
-	(label "TX+"
-		(at 370.84 104.775 0)
+	(label "TX-"
+		(at 54.61 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5634,21 +7122,32 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "888840e1-6a4d-417a-93ea-cb88efcb054b")
+		(uuid "86a7cd37-d0b4-49b7-a77b-a47af6487812")
 	)
 	(label "LED-ACT"
-		(at 533.4 23.495 0)
+		(at 46.99 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify left bottom)
+		)
+		(uuid "876a57e9-bf38-477b-b719-65c650344108")
+	)
+	(label "LED-ACT"
+		(at 238.76 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
 		)
 		(uuid "900ea90a-c14c-44d6-ad88-bdd42bc652cb")
 	)
-	(label "PE-TD-"
-		(at 342.9 31.115 0)
+	(label "LED-LINK"
+		(at 46.99 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5656,43 +7155,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "90b2e88b-6198-41ad-bb71-75d5608e30f2")
-	)
-	(label "RX-"
-		(at 406.4 31.115 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b101db0b-4bc2-481d-9914-fb5c0a1d7ecc")
-	)
-	(label "PE-TD+"
-		(at 342.9 28.575 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b951472a-0934-4845-91fa-ffa7705573ff")
-	)
-	(label "VDD2P0"
-		(at 342.9 51.435 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0a9814b-01da-4d1a-b440-3961e132ff87")
+		(uuid "aeca7929-76fc-4bd3-bb25-224bdecbe603")
 	)
 	(label "RX+"
-		(at 406.4 28.575 0)
+		(at 54.61 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5700,10 +7166,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c1728b44-5434-432f-958f-17c8f6d5b372")
+		(uuid "b14216f5-9549-4c5e-ad3c-52c4fec5f985")
+	)
+	(label "LED-SELFCHECK"
+		(at 238.76 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be7c2b06-e32c-4017-9d0b-196f2e9442a5")
 	)
 	(label "VDD2P0"
-		(at 447.04 38.735 0)
+		(at 142.24 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5714,7 +7191,7 @@
 		(uuid "c45c5a1f-e589-4735-b28e-85589763e17c")
 	)
 	(label "PE-TD+"
-		(at 447.04 23.495 0)
+		(at 142.24 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5724,8 +7201,8 @@
 		)
 		(uuid "cab2d601-1345-4ba8-9277-f53b19baffce")
 	)
-	(label "TX-"
-		(at 370.84 99.695 0)
+	(label "PE-RD-"
+		(at 54.61 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5733,10 +7210,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d46edbe2-ee08-49fe-957d-826ebeb1b5d9")
+		(uuid "d317bfd8-287c-4c93-9c6a-65b374ea02b4")
+	)
+	(label "PL_L"
+		(at 116.84 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d45ea85d-ac33-485e-a4fd-52d374e9b87d")
 	)
 	(label "PE-RD+"
-		(at 447.04 31.115 0)
+		(at 142.24 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5747,7 +7235,7 @@
 		(uuid "d7499836-98eb-447c-a7b1-31713f860313")
 	)
 	(label "RX+"
-		(at 375.92 107.315 0)
+		(at 71.12 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5757,31 +7245,9 @@
 		)
 		(uuid "dda1da15-4d59-4471-b11d-b83b39ca55a0")
 	)
-	(global_label "PL_L"
-		(shape bidirectional)
-		(at 421.64 99.695 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "22df50e1-18f7-4143-a1fe-2b9c265eefc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 429.8621 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HV_SIGNAL"
 		(shape bidirectional)
-		(at 510.54 125.095 0)
+		(at 218.44 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5791,7 +7257,7 @@
 		)
 		(uuid "65ec35d9-0812-419d-b3f3-1f6c41fc2628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 524.274 125.095 0)
+			(at 232.174 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,51 +7269,51 @@
 	)
 	(global_label "HV_SIGNAL"
 		(shape bidirectional)
-		(at 582.295 26.035 0)
+		(at 274.32 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9b9f4fd4-89c2-470f-ac25-4a17397bd86d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 596.029 26.035 0)
+			(at 260.586 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 676.275 26.035 0)
+		(at 371.475 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a3bb615d-87cd-499f-a96e-4d25c323c646")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 684.0823 26.035 0)
+			(at 363.6677 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PL_L"
 		(shape bidirectional)
-		(at 513.08 99.695 0)
+		(at 218.44 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5857,51 +7323,7 @@
 		)
 		(uuid "a5831a2a-e959-4941-8733-38aad8fd7836")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 521.3021 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape bidirectional)
-		(at 332.74 142.875 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "a6315381-0574-4857-975b-c0e4f1aa07e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.3252 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape bidirectional)
-		(at 342.9 53.975 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "ac12b7b9-00b8-4ee7-8897-caed05ec97fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.4852 53.975 0)
+			(at 226.6621 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,51 +7335,29 @@
 	)
 	(global_label "PL_L"
 		(shape bidirectional)
-		(at 582.295 28.575 0)
+		(at 274.32 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c42c1f16-dc5b-4b15-8698-50b74a1580d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 590.5171 28.575 0)
+			(at 266.0979 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "+3.3V"
 		(shape bidirectional)
-		(at 332.74 168.275 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "dfdba856-2d0c-47a2-b148-1732f6a46182")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.3252 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape bidirectional)
-		(at 696.595 84.455 0)
+		(at 391.795 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5967,7 +7367,7 @@
 		)
 		(uuid "f360e772-778d-42fc-bed8-ba94bfc24396")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 706.1802 84.455 0)
+			(at 401.3802 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,16 +7378,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:SparkFun-Aesthetics_GND")
-		(at 688.975 99.695 0)
+		(lib_id "power:-8V")
+		(at 30.48 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "04fd450d-9e5c-436a-b8ef-accbd1d651fb")
-		(property "Reference" "#GND011"
-			(at 688.975 99.695 0)
+		(fields_autoplaced yes)
+		(uuid "0175382a-1c8c-4cf8-bee3-7b971a08e4e1")
+		(property "Reference" "#PWR08"
+			(at 34.29 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,17 +7396,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 686.435 102.235 0)
+		(property "Value" "3V3"
+			(at 26.67 179.0699 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 688.975 99.695 0)
+			(at 30.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +7415,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 688.975 99.695 0)
+			(at 30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-8V\""
+			(at 30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade27ba9-210f-417c-b80e-aaaaac6a1a14")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fathom-X-eagle-import:SparkFun-Aesthetics_GND")
+		(at 384.175 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04fd450d-9e5c-436a-b8ef-accbd1d651fb")
+		(property "Reference" "#GND011"
+			(at 384.175 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381.635 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.175 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.175 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +7490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 688.975 99.695 0)
+			(at 384.175 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +7512,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:HEADER-210.16MM")
-		(at 612.775 23.495 180)
+		(at 307.975 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6053,7 +7520,7 @@
 		(dnp no)
 		(uuid "069abb90-9e38-4bf9-bef1-77eb3572f890")
 		(property "Reference" "U$7"
-			(at 612.775 23.495 0)
+			(at 307.975 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +7529,7 @@
 			)
 		)
 		(property "Value" "HEADER-210.16MM"
-			(at 612.775 23.495 0)
+			(at 307.975 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +7538,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:HEADER-10.16MM-2POS"
-			(at 612.775 23.495 0)
+			(at 307.975 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +7547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 612.775 23.495 0)
+			(at 307.975 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +7556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 612.775 23.495 0)
+			(at 307.975 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +7581,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:SparkFun-Aesthetics_GND")
-		(at 645.795 99.695 0)
+		(at 340.995 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6122,7 +7589,7 @@
 		(dnp no)
 		(uuid "07b2b5e6-f660-4dd0-aac5-df396229cd6b")
 		(property "Reference" "#GND08"
-			(at 645.795 99.695 0)
+			(at 340.995 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +7598,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 643.255 102.235 0)
+			(at 338.455 138.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6140,7 +7607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 645.795 99.695 0)
+			(at 340.995 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +7616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 645.795 99.695 0)
+			(at 340.995 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +7625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 645.795 99.695 0)
+			(at 340.995 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +7647,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:SparkFun-Aesthetics_GND")
-		(at 666.115 99.695 0)
+		(at 361.315 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6188,7 +7655,7 @@
 		(dnp no)
 		(uuid "105eca1e-50e0-4586-b85d-bde18b1cb744")
 		(property "Reference" "#GND010"
-			(at 666.115 99.695 0)
+			(at 361.315 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,7 +7664,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 663.575 102.235 0)
+			(at 358.775 138.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6206,7 +7673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 666.115 99.695 0)
+			(at 361.315 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +7682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 666.115 99.695 0)
+			(at 361.315 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +7691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 666.115 99.695 0)
+			(at 361.315 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +7713,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:C-EUC0603")
-		(at 447.04 43.815 0)
+		(at 142.24 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6254,7 +7721,7 @@
 		(dnp no)
 		(uuid "13b0adb0-ede3-4c18-befe-c020c9048db4")
 		(property "Reference" "C3"
-			(at 448.564 43.434 0)
+			(at 143.764 79.629 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6263,7 +7730,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 448.564 48.514 0)
+			(at 143.764 84.709 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6272,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:C0603"
-			(at 447.04 43.815 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 447.04 43.815 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +7757,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 447.04 43.815 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,8 +7781,270 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 64.77 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168bf263-74d7-4dcc-9d53-ab0ea56e083c")
+		(property "Reference" "#PWR01"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a314fbd-e3cf-43ff-989a-43233108736b")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Modules:LX200V20-SOCKET")
+		(at 72.39 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bf2405c-33e8-4259-ac66-ca5dab1490e1")
+		(property "Reference" "U1"
+			(at 67.31 94.996 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LX200V20-SOCKET"
+			(at 67.31 97.536 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Fathom-X:LX200V20"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://drawings-pdf.s3.amazonaws.com/10489.pdf"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 Position Header Connector 0.079\" (2.00mm) Surface Mount Gold"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactuer Part Num" "NPPN201BFLC-RC"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "S5901-20-ND"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C3320909"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "164eb054-f7db-491a-9bce-5f41630de10d")
+		)
+		(pin "7"
+			(uuid "83b3f913-e12a-432f-a2c9-abc09c7a2441")
+		)
+		(pin "3"
+			(uuid "48f49a3e-9aa5-4598-baeb-378c1ba20728")
+		)
+		(pin "4"
+			(uuid "ca108903-9f06-43fc-989d-8851d3c24de7")
+		)
+		(pin "16"
+			(uuid "5d3d1400-e054-492d-8d96-e5474a0a1db7")
+		)
+		(pin "15"
+			(uuid "48e1a0e7-d783-4df8-84fa-e56dbcebaf19")
+		)
+		(pin "5"
+			(uuid "fdf8a260-f500-4a43-a837-8e7b2215b400")
+		)
+		(pin "19"
+			(uuid "e20f8443-9a5c-4039-a5d0-51cae7fdc981")
+		)
+		(pin "2"
+			(uuid "b6d2b942-3064-488c-ae9a-080e676ba658")
+		)
+		(pin "6"
+			(uuid "378cd788-a0c4-4083-b87f-7bb72bc35619")
+		)
+		(pin "13"
+			(uuid "09110b9e-f5d0-4de9-9055-0ef6ee7fd6f0")
+		)
+		(pin "10"
+			(uuid "a47a2ecd-eaf9-44f4-8731-5425a204ad60")
+		)
+		(pin "14"
+			(uuid "f65a4303-a776-4a0e-8664-1036fa87f6e1")
+		)
+		(pin "8"
+			(uuid "631d767c-a7fd-4d20-9380-a9a123283efa")
+		)
+		(pin "11"
+			(uuid "1795c3b5-a0ad-472d-9009-29cf013664c7")
+		)
+		(pin "9"
+			(uuid "a16a1483-856a-45a6-a289-b8e2ae6d8628")
+		)
+		(pin "17"
+			(uuid "c9ea9621-521b-4900-b687-8d7aec0cd78c")
+		)
+		(pin "18"
+			(uuid "cc462062-ed39-4a40-8cb0-e650c8232f31")
+		)
+		(pin "1"
+			(uuid "e8c56b40-2bce-4be7-a24e-5563c45c4544")
+		)
+		(pin "12"
+			(uuid "34c4d72e-5856-4ead-b9e7-2acf86634063")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Fathom-X-eagle-import:TVS-SP4021")
-		(at 454.66 114.935 0)
+		(at 149.86 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6323,7 +8052,7 @@
 		(dnp no)
 		(uuid "1e70c9fb-a051-4950-ba8a-9dab1ebb29f9")
 		(property "Reference" "U$4"
-			(at 459.232 110.109 0)
+			(at 154.432 146.304 0)
 			(effects
 				(font
 					(size 1.016 0.8636)
@@ -6333,7 +8062,7 @@
 			)
 		)
 		(property "Value" "TVS-SP4021"
-			(at 459.232 112.649 0)
+			(at 154.432 148.844 0)
 			(effects
 				(font
 					(size 1.016 0.8636)
@@ -6342,7 +8071,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:SOD323-BIDIRECTIONAL"
-			(at 454.66 114.935 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +8080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 454.66 114.935 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +8089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 454.66 114.935 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +8114,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:RJ45-MAG")
-		(at 485.14 33.655 0)
+		(at 180.34 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6393,7 +8122,7 @@
 		(dnp no)
 		(uuid "27e116f6-1561-4363-983c-682e43611884")
 		(property "Reference" "U$5"
-			(at 472.44 20.447 0)
+			(at 167.64 56.642 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6403,7 +8132,7 @@
 			)
 		)
 		(property "Value" "RB1-125BAG1A"
-			(at 472.44 51.181 0)
+			(at 167.64 87.376 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6412,7 +8141,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:RJ45-MAG-WIZNET"
-			(at 485.14 33.655 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +8150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 33.655 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +8159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 485.14 33.655 0)
+			(at 180.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,74 +8210,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:GND")
-		(at 398.78 59.055 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2abbb3a3-2523-4eee-8d8a-c25072ac6619")
-		(property "Reference" "#GND03"
-			(at 398.78 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.24 61.595 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 398.78 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4781fa62-2ded-4fdb-bde3-980f6bf29ed2")
-		)
-		(instances
-			(project "fathom-x"
-				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Fathom-X-eagle-import:VREG-R-78E-0.5")
-		(at 602.615 84.455 0)
+		(at 297.815 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6556,7 +8219,7 @@
 		(dnp no)
 		(uuid "2d7f7b40-9dc3-4ec8-87f7-6e869fdf238e")
 		(property "Reference" "U$6"
-			(at 605.155 92.075 0)
+			(at 300.355 128.27 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6566,7 +8229,7 @@
 			)
 		)
 		(property "Value" "R-78E-0.5"
-			(at 605.155 94.615 0)
+			(at 300.355 130.81 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6575,7 +8238,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:R-78E-0.5"
-			(at 602.615 84.455 0)
+			(at 297.815 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +8247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 602.615 84.455 0)
+			(at 297.815 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +8256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 602.615 84.455 0)
+			(at 297.815 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,34 +8283,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:CAP_POL1206")
-		(at 688.975 89.535 0)
+		(lib_id "power:GNDREF")
+		(at 64.77 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3dc30cd7-b93c-4ac6-8502-cc3bbfd1a59b")
-		(property "Reference" "C6"
-			(at 689.991 88.9 0)
+		(uuid "3b1c8224-dc5e-48c2-a32a-96e570174155")
+		(property "Reference" "#PWR06"
+			(at 58.42 82.55 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Value" "10uF 10V"
-			(at 689.991 93.726 0)
+		(property "Value" "GNDREF"
+			(at 60.96 86.36 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Fathom-X:EIA3216"
-			(at 688.975 89.535 0)
+		(property "Footprint" ""
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +8320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 688.975 89.535 0)
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +8329,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 688.975 89.535 0)
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eba3c40-173f-4a7f-8500-829dda338428")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fathom-X-eagle-import:CAP_POL1206")
+		(at 384.175 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dc30cd7-b93c-4ac6-8502-cc3bbfd1a59b")
+		(property "Reference" "C6"
+			(at 385.191 125.095 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uF 10V"
+			(at 385.191 129.921 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Fathom-X:EIA3216"
+			(at 384.175 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.175 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.175 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,8 +8419,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:R-US_R0603")
-		(at 350.52 168.275 0)
+		(lib_id "BR_Resistors_0402:R_0402_470R")
+		(at 45.72 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6698,7 +8428,7 @@
 		(dnp no)
 		(uuid "4055fe56-f1ff-4113-8989-08f1a9b1108e")
 		(property "Reference" "R2"
-			(at 346.71 166.7764 0)
+			(at 45.212 200.66 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6707,7 +8437,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 346.71 171.577 0)
+			(at 46.482 205.994 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6715,8 +8445,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Fathom-X:R0603"
-			(at 350.52 168.275 0)
+		(property "Footprint" "BR_Passives:R_0402_1005Metric"
+			(at 45.974 203.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,8 +8454,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 350.52 168.275 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 45.72 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,12 +8463,91 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 350.52 168.275 0)
+		(property "Description" "470R 1% 0402 Resistor"
+			(at 45.72 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 26.67 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RC0402FR-07470RL"
+			(at 45.72 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 24.13 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "311-470LRCT-ND"
+			(at 21.59 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 19.05 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "311-470LRTR-ND"
+			(at 16.51 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 13.97 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C114877"
+			(at 11.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6758,16 +8567,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:GND")
-		(at 625.475 99.695 0)
+		(lib_id "power:GNDREF")
+		(at 64.77 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4bf5a87e-2516-427a-8fc2-532307416dca")
-		(property "Reference" "#GND07"
-			(at 625.475 99.695 0)
+		(uuid "4ba10435-4894-4b3b-bef9-1021a54f2c43")
+		(property "Reference" "#PWR04"
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,17 +8584,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 622.935 102.235 0)
+		(property "Value" "GNDREF"
+			(at 60.96 71.12 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 625.475 99.695 0)
+			(at 64.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +8604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 625.475 99.695 0)
+			(at 64.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +8613,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 625.475 99.695 0)
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "463b157c-52a5-46d3-b67c-f61bc9a26f4b")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fathom-X-eagle-import:GND")
+		(at 320.675 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf5a87e-2516-427a-8fc2-532307416dca")
+		(property "Reference" "#GND07"
+			(at 320.675 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.135 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.675 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.675 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 320.675 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +8701,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:GND")
-		(at 520.7 51.435 0)
+		(at 215.9 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6833,7 +8709,7 @@
 		(dnp no)
 		(uuid "50297ea9-2d4a-4b6e-bccc-94d18b136273")
 		(property "Reference" "#GND06"
-			(at 520.7 51.435 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +8718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 518.16 53.975 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6851,7 +8727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 520.7 51.435 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +8736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 520.7 51.435 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +8745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 520.7 51.435 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,16 +8766,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:USBSMD")
-		(at 655.955 69.215 0)
+		(lib_id "power:-8V")
+		(at 30.48 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57990d6b-dc6d-4f22-9a7a-0014bdc139fb")
-		(property "Reference" "JP1"
-			(at 655.955 69.215 0)
+		(fields_autoplaced yes)
+		(uuid "5468fc3f-94de-481c-918a-3a1247a37edf")
+		(property "Reference" "#PWR09"
+			(at 34.29 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,17 +8784,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "USBSMD"
-			(at 655.955 69.215 0)
+		(property "Value" "3V3"
+			(at 26.67 204.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Fathom-X:USB-MINIB"
-			(at 655.955 69.215 0)
+		(property "Footprint" ""
+			(at 30.48 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +8803,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 655.955 69.215 0)
+			(at 30.48 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-8V\""
+			(at 30.48 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90572e8d-9336-43fe-a0ec-8d6cb3762b0d")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fathom-X-eagle-import:USBSMD")
+		(at 351.155 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57990d6b-dc6d-4f22-9a7a-0014bdc139fb")
+		(property "Reference" "JP1"
+			(at 351.155 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USBSMD"
+			(at 351.155 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fathom-X:USB-MINIB"
+			(at 351.155 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.155 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,7 +8878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 655.955 69.215 0)
+			(at 351.155 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +8909,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:R-US_R0603")
-		(at 510.54 23.495 0)
+		(at 205.74 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6974,7 +8917,7 @@
 		(dnp no)
 		(uuid "5c3a9f62-d350-4121-b11a-63b6386f3d96")
 		(property "Reference" "R4"
-			(at 506.73 21.9964 0)
+			(at 201.93 58.1914 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6983,7 +8926,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 506.73 26.797 0)
+			(at 201.93 62.992 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6992,7 +8935,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:R0603"
-			(at 510.54 23.495 0)
+			(at 205.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +8944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 510.54 23.495 0)
+			(at 205.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +8953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 23.495 0)
+			(at 205.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +8978,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:VREG-1117-FIXEDSOT223")
-		(at 666.115 84.455 0)
+		(at 361.315 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7043,7 +8986,7 @@
 		(dnp no)
 		(uuid "5d207735-daf7-482c-af8d-acc3ccf0bf4f")
 		(property "Reference" "IC1"
-			(at 668.655 92.075 0)
+			(at 363.855 128.27 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7052,7 +8995,7 @@
 			)
 		)
 		(property "Value" "1117-3.3V"
-			(at 668.655 94.615 0)
+			(at 363.855 130.81 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7061,7 +9004,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:SOT223"
-			(at 666.115 84.455 0)
+			(at 361.315 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +9013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 666.115 84.455 0)
+			(at 361.315 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +9022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 666.115 84.455 0)
+			(at 361.315 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +9050,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:GND")
-		(at 462.28 53.975 0)
+		(at 157.48 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7115,7 +9058,7 @@
 		(dnp no)
 		(uuid "65f60e9c-a740-47e3-9d3c-18241105c586")
 		(property "Reference" "#GND05"
-			(at 462.28 53.975 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +9067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 459.74 56.515 0)
+			(at 154.94 92.71 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7133,7 +9076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 462.28 53.975 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +9085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 462.28 53.975 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +9094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 462.28 53.975 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +9116,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:DIODE-SCHOTTKY-B340A")
-		(at 638.175 66.675 180)
+		(at 333.375 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7181,7 +9124,7 @@
 		(dnp no)
 		(uuid "6682f303-d8be-4f8e-939e-cd59c2cbb2b3")
 		(property "Reference" "D1"
-			(at 635.635 67.1576 0)
+			(at 330.835 103.3526 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7190,7 +9133,7 @@
 			)
 		)
 		(property "Value" "B340A"
-			(at 635.635 64.3636 0)
+			(at 330.835 100.5586 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7199,7 +9142,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:SMA-DIODE"
-			(at 638.175 66.675 0)
+			(at 333.375 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +9151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 638.175 66.675 0)
+			(at 333.375 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +9160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 638.175 66.675 0)
+			(at 333.375 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +9185,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:R-US_R0603")
-		(at 510.54 38.735 0)
+		(at 205.74 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7250,7 +9193,7 @@
 		(dnp no)
 		(uuid "74db0ede-3dc1-4dbb-81aa-23be1814a264")
 		(property "Reference" "R5"
-			(at 506.73 37.2364 0)
+			(at 201.93 73.4314 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7259,7 +9202,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 506.73 42.037 0)
+			(at 201.93 78.232 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7268,7 +9211,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:R0603"
-			(at 510.54 38.735 0)
+			(at 205.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +9220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 510.54 38.735 0)
+			(at 205.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +9229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 38.735 0)
+			(at 205.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,26 +9253,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:UT11403S")
-		(at 396.24 114.935 0)
+		(lib_id "power:GNDREF")
+		(at 64.77 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9643b236-493a-41e0-9b4c-a3942db5c0c4")
-		(property "Reference" "U$2"
-			(at 396.24 96.647 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "UT11403S"
-			(at 396.24 114.935 0)
+		(uuid "823d29c2-0ae3-4e63-b574-441cd1c3ba32")
+		(property "Reference" "#PWR02"
+			(at 58.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,8 +9270,18 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fathom-X:UT11403S"
-			(at 396.24 114.935 0)
+		(property "Value" "GNDREF"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +9290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 396.24 114.935 0)
+			(at 64.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +9299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 396.24 114.935 0)
+			(at 64.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,28 +9307,13 @@
 				(hide yes)
 			)
 		)
-		(pin "RX-"
-			(uuid "762f589b-214e-40f6-a6ba-440cfa960aac")
-		)
-		(pin "PL_N"
-			(uuid "e044c5cb-8ea5-45bb-ac29-4f999628fd79")
-		)
-		(pin "TX-"
-			(uuid "eb07deeb-2d2a-4f66-a4bb-8d29a7e6f0de")
-		)
-		(pin "RX+"
-			(uuid "f8ef3959-3bed-4fff-bf8b-19e3b5f0b3e7")
-		)
-		(pin "PL_L"
-			(uuid "7df311e3-4f78-47c7-a66e-d25cdf81026a")
-		)
-		(pin "TX+"
-			(uuid "ec8f57a6-1369-47f1-9d3f-e45a1bf2a0bb")
+		(pin "1"
+			(uuid "a70a0e29-b92a-4067-a9ab-c7149c20bebb")
 		)
 		(instances
 			(project "fathom-x"
 				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
-					(reference "U$2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7393,7 +9321,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:CAP0603-CAP")
-		(at 645.795 92.075 0)
+		(at 340.995 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7401,7 +9329,7 @@
 		(dnp no)
 		(uuid "9c87f16a-e8b9-42f2-b769-7cd3180d9d4e")
 		(property "Reference" "C5"
-			(at 647.319 89.154 0)
+			(at 342.519 125.349 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7410,7 +9338,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 647.319 94.234 0)
+			(at 342.519 130.429 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7419,7 +9347,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:0603-CAP"
-			(at 645.795 92.075 0)
+			(at 340.995 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +9356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 645.795 92.075 0)
+			(at 340.995 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +9365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 645.795 92.075 0)
+			(at 340.995 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +9390,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:C-EUC1206")
-		(at 500.38 125.095 90)
+		(at 195.58 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7470,7 +9398,7 @@
 		(dnp no)
 		(uuid "9ef58259-1bbf-4941-b605-a5ceac402063")
 		(property "Reference" "C4"
-			(at 499.999 123.571 0)
+			(at 195.199 159.766 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7479,7 +9407,7 @@
 			)
 		)
 		(property "Value" "0.01uF 500V"
-			(at 505.079 123.571 0)
+			(at 200.279 159.766 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7488,7 +9416,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:C1206"
-			(at 500.38 125.095 0)
+			(at 195.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +9425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 500.38 125.095 0)
+			(at 195.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +9434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 500.38 125.095 0)
+			(at 195.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,35 +9458,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:LEDCHIPLED_0603")
-		(at 360.68 168.275 90)
+		(lib_id "power:GNDREF")
+		(at 64.77 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a2d2354b-23ed-4333-8d4a-48eb75beeebb")
-		(property "Reference" "LED2"
-			(at 365.252 164.719 90)
+		(uuid "a084d89b-e446-4d57-b607-759789dab267")
+		(property "Reference" "#PWR03"
+			(at 58.42 57.15 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LEDCHIPLED_0603"
-			(at 365.252 162.56 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fathom-X:CHIPLED_0603"
-			(at 360.68 168.275 0)
+		(property "Value" "GNDREF"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +9495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 168.275 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +9504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.68 168.275 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,10 +9512,149 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
+			(uuid "5bdf5a5e-459d-49c6-b470-cbacdd7dc7bc")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Optoelectronic:LTST-C191KGKT")
+		(at 57.15 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2d2354b-23ed-4333-8d4a-48eb75beeebb")
+		(property "Reference" "LED2"
+			(at 60.198 199.39 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LEDCHIPLED_0603"
+			(at 51.435 199.898 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Optoelectronics:LED_0603_1608Metric"
+			(at 56.769 210.439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+			(at 54.483 213.487 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED 0603 Green"
+			(at 57.15 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 55.499 217.043 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "LTST-C191KGKT"
+			(at 57.531 208.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 55.499 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "160-1446-1-ND"
+			(at 55.245 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 56.642 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "160-1446-2-ND"
+			(at 56.896 216.789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 57.15 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C125098"
+			(at 57.15 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "20ea135b-d471-4cfe-a09e-4d2e1bf9a19e")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "525745a6-bf61-4dd6-86f7-07852161e2dc")
 		)
 		(instances
@@ -7601,7 +9668,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:GND")
-		(at 370.84 173.355 0)
+		(at 66.04 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7609,7 +9676,7 @@
 		(dnp no)
 		(uuid "b3198f6e-18f7-405b-84cf-4ce665b5b038")
 		(property "Reference" "#GND02"
-			(at 370.84 173.355 0)
+			(at 66.04 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +9685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 175.895 0)
+			(at 63.5 212.09 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7627,7 +9694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 173.355 0)
+			(at 66.04 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +9703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 173.355 0)
+			(at 66.04 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +9712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 370.84 173.355 0)
+			(at 66.04 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +9734,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:GND")
-		(at 650.875 74.295 0)
+		(at 346.075 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7675,7 +9742,7 @@
 		(dnp no)
 		(uuid "b4f7a493-d9c5-4bb2-adbb-2b50cdb81efb")
 		(property "Reference" "#GND09"
-			(at 650.875 74.295 0)
+			(at 346.075 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +9751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 648.335 76.835 0)
+			(at 343.535 113.03 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7693,7 +9760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 650.875 74.295 0)
+			(at 346.075 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +9769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 650.875 74.295 0)
+			(at 346.075 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +9778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 650.875 74.295 0)
+			(at 346.075 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,35 +9799,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:LEDCHIPLED_0603")
-		(at 360.68 142.875 90)
+		(lib_id "power:-8V")
+		(at 64.77 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b5f856c4-71c6-45a6-9635-7f7b1565619a")
-		(property "Reference" "LED1"
-			(at 365.252 139.319 90)
+		(fields_autoplaced yes)
+		(uuid "b56a9fff-6823-4995-a932-15588d28bd6e")
+		(property "Reference" "#PWR07"
+			(at 68.58 90.17 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LEDCHIPLED_0603"
-			(at 365.252 137.16 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fathom-X:CHIPLED_0603"
-			(at 360.68 142.875 0)
+		(property "Value" "3V3"
+			(at 60.96 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +9836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 142.875 0)
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,8 +9844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 360.68 142.875 0)
+		(property "Description" "Power symbol creates a global label with name \"-8V\""
+			(at 64.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,10 +9853,149 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
+			(uuid "c851d6df-73eb-420f-8381-29a68da4102f")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BR_Optoelectronic:LTST-C191KGKT")
+		(at 57.15 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5f856c4-71c6-45a6-9635-7f7b1565619a")
+		(property "Reference" "LED1"
+			(at 60.96 173.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LEDCHIPLED_0603"
+			(at 51.435 174.498 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BR_Optoelectronics:LED_0603_1608Metric"
+			(at 56.769 185.039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF"
+			(at 54.483 188.087 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED 0603 Green"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 55.499 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "LTST-C191KGKT"
+			(at 57.531 182.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 55.499 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "160-1446-1-ND"
+			(at 55.245 190.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "DigiKey"
+			(at 56.642 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "160-1446-2-ND"
+			(at 56.896 191.389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C125098"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "9e0ee927-7739-4241-bea4-3b39799f5c41")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "aa179b6d-fba4-49b1-9bd4-a8b2efb7c1bb")
 		)
 		(instances
@@ -7803,7 +10009,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:R-US_R1206")
-		(at 485.14 125.095 180)
+		(at 180.34 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7811,7 +10017,7 @@
 		(dnp no)
 		(uuid "baf6807b-9e8d-424f-90a0-5df61663c4e7")
 		(property "Reference" "R3"
-			(at 488.95 126.5936 0)
+			(at 184.15 162.7886 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7820,7 +10026,7 @@
 			)
 		)
 		(property "Value" "10 1/4W HV"
-			(at 488.95 121.793 0)
+			(at 184.15 157.988 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7829,7 +10035,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:R1206"
-			(at 485.14 125.095 0)
+			(at 180.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +10044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 125.095 0)
+			(at 180.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +10053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 485.14 125.095 0)
+			(at 180.34 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +10078,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:CAP_POL1206")
-		(at 625.475 89.535 0)
+		(at 320.675 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7880,7 +10086,7 @@
 		(dnp no)
 		(uuid "bb3f78a5-3a85-4ed0-bbb3-34eefbf2a811")
 		(property "Reference" "C1"
-			(at 626.491 88.9 0)
+			(at 321.691 125.095 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7889,7 +10095,7 @@
 			)
 		)
 		(property "Value" "10uF 10V"
-			(at 626.491 93.726 0)
+			(at 321.691 129.921 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7898,7 +10104,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:EIA3216"
-			(at 625.475 89.535 0)
+			(at 320.675 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +10113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 625.475 89.535 0)
+			(at 320.675 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +10122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 625.475 89.535 0)
+			(at 320.675 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +10147,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:GND")
-		(at 447.04 53.975 0)
+		(at 142.24 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7949,7 +10155,7 @@
 		(dnp no)
 		(uuid "caadbf63-1394-44d3-b480-bc7c3f91f6fa")
 		(property "Reference" "#GND04"
-			(at 447.04 53.975 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,7 +10164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 444.5 56.515 0)
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7967,7 +10173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 447.04 53.975 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +10182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 447.04 53.975 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +10191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 447.04 53.975 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,8 +10212,167 @@
 		)
 	)
 	(symbol
+		(lib_name "UT11403S_1")
+		(lib_id "BR_Inductors:UT11403S")
+		(at 102.87 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb6c9f09-1348-41ad-81b0-b3e5d7433c0a")
+		(property "Reference" "T1"
+			(at 93.726 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "UT11403S"
+			(at 98.552 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fathom-X:UT11403S"
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.umec.com.tw/file/Product/file/UT11403S-MKT.pdf"
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PLC Transformer 1:4:3 "
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMEC"
+			(at 104.14 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "UT11403S"
+			(at 112.014 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" ""
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8d7a3421-84de-4ee8-85ef-cec85522faad")
+		)
+		(pin "5"
+			(uuid "4ce37b70-5e5a-45b5-935a-de18411bdada")
+		)
+		(pin "1"
+			(uuid "6d8e9d8b-a3de-4e95-9613-0bdddc7bb88a")
+		)
+		(pin "3"
+			(uuid "af6cd5b5-2f90-439d-9635-49a4a477b67d")
+		)
+		(pin "2"
+			(uuid "83b3ba7b-c74d-47d1-abd6-21fdfc3977e2")
+		)
+		(pin "8"
+			(uuid "2e8420bd-cf47-45e7-9114-f693a3a344a2")
+		)
+		(pin "7"
+			(uuid "2229b18f-ff93-4b2a-9929-39c44d8527c9")
+		)
+		(pin "6"
+			(uuid "df0fbfc3-ddf1-431a-983e-bca96dc86245")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Fathom-X-eagle-import:C-EUC0805")
-		(at 383.54 89.535 90)
+		(at 78.74 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8015,7 +10380,7 @@
 		(dnp no)
 		(uuid "ccfb835b-de45-495a-bf58-a904133477a5")
 		(property "Reference" "C2"
-			(at 383.159 88.011 0)
+			(at 78.359 124.206 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8024,7 +10389,7 @@
 			)
 		)
 		(property "Value" "330pF 50V"
-			(at 388.239 88.011 0)
+			(at 83.439 124.206 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8033,7 +10398,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:C0805"
-			(at 383.54 89.535 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +10407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 89.535 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +10416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 89.535 0)
+			(at 78.74 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +10441,7 @@
 	)
 	(symbol
 		(lib_id "Fathom-X-eagle-import:M023.5MM")
-		(at 701.675 26.035 180)
+		(at 396.875 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8084,7 +10449,7 @@
 		(dnp no)
 		(uuid "d2c16c3f-ad9f-4f45-85be-f9a9f3cf76c3")
 		(property "Reference" "JP2"
-			(at 704.215 31.877 0)
+			(at 399.415 68.072 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8093,7 +10458,7 @@
 			)
 		)
 		(property "Value" "M023.5MM"
-			(at 704.215 20.955 0)
+			(at 399.415 57.15 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8102,7 +10467,7 @@
 			)
 		)
 		(property "Footprint" "Fathom-X:SCREWTERMINAL-3.5MM-2"
-			(at 701.675 26.035 0)
+			(at 396.875 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +10476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 701.675 26.035 0)
+			(at 396.875 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +10485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 701.675 26.035 0)
+			(at 396.875 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,8 +10509,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:R-US_R0603")
-		(at 350.52 142.875 0)
+		(lib_id "BR_Resistors_0402:R_0402_130R")
+		(at 46.99 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8153,7 +10518,7 @@
 		(dnp no)
 		(uuid "d909e8fa-2fa3-4003-a526-a5776f0c42b9")
 		(property "Reference" "R1"
-			(at 346.71 141.3764 0)
+			(at 47.752 175.514 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8162,7 +10527,7 @@
 			)
 		)
 		(property "Value" "130"
-			(at 346.71 146.177 0)
+			(at 49.022 180.594 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8170,8 +10535,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Fathom-X:R0603"
-			(at 350.52 142.875 0)
+		(property "Footprint" "BR_Passives:R_0402_1005Metric"
+			(at 47.244 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,8 +10544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 350.52 142.875 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,12 +10553,91 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 350.52 142.875 0)
+		(property "Description" "130 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Num" "RC0402FR-07130RL"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "DigiKey"
+			(at 25.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 1" "311-130LRCT-ND"
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "Mouser"
+			(at 20.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 2" "603-RC0402FR-07130RL"
+			(at 17.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier 3" "JLCPCB"
+			(at 15.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Num 3" "C477610"
+			(at 12.7 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8213,16 +10657,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Fathom-X-eagle-import:GND")
-		(at 602.615 99.695 0)
+		(lib_id "power:-8V")
+		(at 64.77 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ec17d0c8-7fae-4a33-8210-3b66de18ab2c")
-		(property "Reference" "#GND01"
-			(at 602.615 99.695 0)
+		(fields_autoplaced yes)
+		(uuid "e8fd4553-234e-4b64-be74-500495f701b4")
+		(property "Reference" "#PWR05"
+			(at 68.58 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,17 +10675,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 600.075 102.235 0)
+		(property "Value" "VDD2P0"
+			(at 60.96 74.9299 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 602.615 99.695 0)
+			(at 64.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +10694,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 602.615 99.695 0)
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-8V\""
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c5a196f-4008-40a3-942c-1d33ee42476a")
+		)
+		(instances
+			(project "fathom-x"
+				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fathom-X-eagle-import:GND")
+		(at 297.815 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec17d0c8-7fae-4a33-8210-3b66de18ab2c")
+		(property "Reference" "#GND01"
+			(at 297.815 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.275 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.815 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.815 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +10769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 602.615 99.695 0)
+			(at 297.815 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,130 +10784,6 @@
 			(project "fathom-x"
 				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
 					(reference "#GND01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fathom-X-eagle-import:LX200V20")
-		(at 378.46 38.735 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7b8493c-a940-4ddd-9cd0-c59e07199e22")
-		(property "Reference" "U$1"
-			(at 365.76 18.161 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "LX200V20"
-			(at 365.76 58.801 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Fathom-X:LX200V20"
-			(at 378.46 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 378.46 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "43474396-3db8-4a12-b113-118c891e0de6")
-		)
-		(pin "12"
-			(uuid "545f572c-b582-4d6f-96a9-fe4f3dd5ea38")
-		)
-		(pin "13"
-			(uuid "1bc628ee-4b4b-4264-bd31-ff1259e86730")
-		)
-		(pin "14"
-			(uuid "560e068c-15f0-4185-80a1-f5e4fe8a72e4")
-		)
-		(pin "15"
-			(uuid "b6cabe0f-c2c5-44d6-908d-07585b226c2d")
-		)
-		(pin "19"
-			(uuid "1f1af860-4bee-4283-92c2-531807b91551")
-		)
-		(pin "20"
-			(uuid "3ef22946-cd3e-4267-be54-fca0a88bae6d")
-		)
-		(pin "2"
-			(uuid "dbc976f9-8005-44d3-b277-992ca63b610a")
-		)
-		(pin "1"
-			(uuid "e1dec105-be6a-4011-a624-0c0ca19759ab")
-		)
-		(pin "11"
-			(uuid "ca57a5b4-3118-4992-a79e-fd7ce7d8e404")
-		)
-		(pin "16"
-			(uuid "7809c820-1585-4a68-95f6-ab407dfd55a7")
-		)
-		(pin "17"
-			(uuid "d5047bab-1c2b-44e3-9b66-0a613e27cc02")
-		)
-		(pin "18"
-			(uuid "efe4033f-c9bf-4122-a75a-2580cc6a59ed")
-		)
-		(pin "3"
-			(uuid "74fb091e-09bd-4d14-9f3a-9eec57d3536c")
-		)
-		(pin "5"
-			(uuid "3b87029f-4993-41e7-8988-d5e0506420cf")
-		)
-		(pin "4"
-			(uuid "61ff8487-a030-4b75-a7c4-27daa03888c2")
-		)
-		(pin "8"
-			(uuid "65bd581b-1e46-4422-8e54-46778140b279")
-		)
-		(pin "6"
-			(uuid "1051da1c-bcfa-45c6-a189-46f464ff53b5")
-		)
-		(pin "9"
-			(uuid "9039d0f5-56b8-44f0-acd7-6c46d5a9af1d")
-		)
-		(pin "7"
-			(uuid "399be0cc-84a6-435f-94ab-acefb7380cd6")
-		)
-		(instances
-			(project "fathom-x"
-				(path "/c22ba073-8f48-4e42-84f1-aa310c7d5550"
-					(reference "U$1")
 					(unit 1)
 				)
 			)
